@@ -13,10 +13,6 @@ const About = () => {
       <main className="container max-w-6xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-start">
           <div className="space-y-6 animate-fade-in">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-              Hello! I'm Valentin Iliev, the Media Buyer and Consultant who scales Brands effectively across Europe and North America.
-            </h1>
-            
             <div className="space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

@@ -4,6 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
+import { supabase } from "@/integrations/supabase/client";
 import {
   Form,
   FormControl,
@@ -20,7 +21,7 @@ const formSchema = z.object({
   name: z.string().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
   email: z.string().email("Invalid email address").max(255, "Email must be less than 255 characters"),
   phone: z.string().max(20, "Phone number must be less than 20 characters").optional(),
-  description: z.string().max(300, "Description must be less than 300 characters").optional(),
+  description: z.string().max(600, "Description must be less than 600 characters").optional(),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -45,13 +46,21 @@ const ReachOut = () => {
   const onSubmit = async (values: FormValues) => {
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    console.log("Form submitted:", values);
-    toast.success("Thank you! I'll be in touch soon.");
-    form.reset();
-    setIsSubmitting(false);
+    try {
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: values
+      });
+
+      if (error) throw error;
+
+      toast.success("Thank you! I'll be in touch soon.");
+      form.reset();
+    } catch (error) {
+      console.error('Error sending message:', error);
+      toast.error("Failed to send message. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -137,14 +146,14 @@ const ReachOut = () => {
                       <Textarea 
                         placeholder="Tell me about your challenge..." 
                         className="border-border bg-background focus:border-foreground transition-colors min-h-[120px] resize-none"
-                        maxLength={300}
+                        maxLength={600}
                         {...field} 
                       />
                     </FormControl>
                     <div className="flex justify-between items-center">
                       <FormMessage className="text-xs" />
                       <span className="text-xs text-muted-foreground">
-                        {field.value?.length || 0}/300
+                        {field.value?.length || 0}/600
                       </span>
                     </div>
                   </FormItem>

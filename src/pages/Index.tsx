@@ -19,25 +19,29 @@ const Index = () => {
       logo: amazonLogo,
       logoAlt: "Amazon DSP",
       title: "Amazon DSP",
-      description: "I help brands and agencies connect with high value audiences, both on and off Amazon. My expertise lies in building tailored DSP campaigns that meet your unique business objectives effectively."
+      description: "I help brands and agencies connect with high value audiences, both on and off Amazon. My expertise lies in building tailored DSP campaigns that meet your unique business objectives effectively.",
+      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       logo: amcLogo,
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
-      description: "Want to know the true impact of your ad spend? I use Amazon Marketing Cloud to help you gain a full-funnel view of your campaigns, connecting your data with Amazon's to reveal powerful insights. This allows us to optimize your strategy for maximum effectiveness, ensuring every investment works harder."
+      description: "Want to know the true impact of your ad spend? I use Amazon Marketing Cloud to help you gain a full-funnel view of your campaigns, connecting your data with Amazon's to reveal powerful insights. This allows us to optimize your strategy for maximum effectiveness, ensuring every investment works harder.",
+      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       logo: metaLogo,
       logoAlt: "Instagram and Facebook",
       title: "Instagram and Facebook",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       logo: tiktokLogo,
       logoAlt: "TikTok",
       title: "TikTok",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   ];
 
@@ -68,7 +72,7 @@ const Index = () => {
         </section>
 
         {/* Services Section */}
-        <section className="py-16 md:py-24 bg-accent/20">
+        <section className="py-16 md:py-24 bg-background">
           <div className="container max-w-6xl px-6">
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {services.map((service, index) => (
@@ -85,7 +89,8 @@ const Index = () => {
         </section>
 
         {/* Image & Text Section */}
-        <section className="container max-w-6xl py-16 md:py-24 px-6">
+        <section className="py-16 md:py-24 bg-accent/20">
+          <div className="container max-w-6xl px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="animate-fade-in order-2 md:order-1">
               <div className="aspect-[3/4] bg-muted rounded-sm overflow-hidden">
@@ -106,6 +111,7 @@ const Index = () => {
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
+          </div>
           </div>
         </section>
 

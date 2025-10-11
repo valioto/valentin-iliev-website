@@ -1,10 +1,21 @@
+import volkswagenLogo from "@/assets/volkswagen-logo.png";
+import audiLogo from "@/assets/audi-logo.png";
+import porscheLogo from "@/assets/porsche-logo.png";
+import cupraLogo from "@/assets/cupra-logo.png";
+import mercedesLogo from "@/assets/mercedes-logo.png";
+import bmwLogo from "@/assets/bmw-logo.png";
+import landroverLogo from "@/assets/landrover-logo.png";
+import hondaLogo from "@/assets/honda-logo.png";
+
 const brands = [
-  { name: "Brand 1", logo: "https://via.placeholder.com/120x60/000000/FFFFFF?text=BRAND+1" },
-  { name: "Brand 2", logo: "https://via.placeholder.com/120x60/000000/FFFFFF?text=BRAND+2" },
-  { name: "Brand 3", logo: "https://via.placeholder.com/120x60/000000/FFFFFF?text=BRAND+3" },
-  { name: "Brand 4", logo: "https://via.placeholder.com/120x60/000000/FFFFFF?text=BRAND+4" },
-  { name: "Brand 5", logo: "https://via.placeholder.com/120x60/000000/FFFFFF?text=BRAND+5" },
-  { name: "Brand 6", logo: "https://via.placeholder.com/120x60/000000/FFFFFF?text=BRAND+6" },
+  { name: "Volkswagen", logo: volkswagenLogo },
+  { name: "Audi", logo: audiLogo },
+  { name: "Porsche", logo: porscheLogo },
+  { name: "Cupra", logo: cupraLogo },
+  { name: "Mercedes-Benz", logo: mercedesLogo },
+  { name: "BMW", logo: bmwLogo },
+  { name: "Land Rover", logo: landroverLogo },
+  { name: "Honda", logo: hondaLogo },
 ];
 
 const BrandLogos = () => {
