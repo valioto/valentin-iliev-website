@@ -33,15 +33,15 @@ const Index = () => {
       logo: metaLogo,
       logoAlt: "Instagram and Facebook",
       title: "Instagram and Facebook",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      description: "I leverage the unparalleled scale and surgical precision targeting of Meta's platforms (Facebook & Instagram) to secure the ideal audience for your brand. The Meta family of apps now reaches over 452 and 545 million monthly active users across the US and EU accordingly, providing massive, reliable scale.",
+      popoverContent: "I leverage the unparalleled scale and surgical precision targeting of Meta's platforms (Facebook & Instagram) to secure the ideal audience for your brand. The Meta family of apps now reaches over 452 and 545 million monthly active users across the US and EU accordingly, providing massive, reliable scale. I build campaigns that directly match your core business objectives, ensuring every advertising resource is spent to deliver the measurable results you need for awareness, intent, or purchase."
     },
     {
       logo: tiktokLogo,
       logoAlt: "TikTok",
       title: "TikTok",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      description: "TikTok is key for future-proofing your brand. With 170 million monthly active US users and 169 million EU users, its explosive growth is now rapidly attracting older, high-value audiences alongside its core youth market.",
+      popoverContent: "TikTok is key for future-proofing your brand. With 170 million monthly active US users and 169 million EU users, its explosive growth is now rapidly attracting older, high-value audiences alongside its core youth market. I create tailored TikTok strategies that generate high-impact exposure and deep consumer engagement, designed to meet your specific goals—whether that is brand awareness, driving consideration, or maximizing direct conversions."
     }
   ];
 
@@ -53,10 +53,13 @@ const Index = () => {
         {/* Hero Section */}
         <section className="container max-w-6xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="space-y-6 animate-fade-in">
+            <div className="space-y-3 animate-fade-in">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                Hello! I'm Valentin Iliev, the Media Buyer and Consultant who scales Brands effectively across Europe and North America.
+                Hello
               </h1>
+              <p className="text-lg md:text-xl text-muted-foreground">
+                Valentin Iliev, the Media Buyer and Consultant who scales Brands effectively across Europe and North America.
+              </p>
             </div>
             
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -74,6 +77,9 @@ const Index = () => {
         {/* Services Section */}
         <section className="py-16 md:py-24 bg-background">
           <div className="container max-w-6xl px-6">
+            <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">
+              Get started
+            </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {services.map((service, index) => (
                 <div 

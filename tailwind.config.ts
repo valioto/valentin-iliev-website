@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Morequiat", "Inter", "sans-serif"],
-        mono: ["IBM Plex Mono", "monospace"],
+        sans: ["Manrope", "sans-serif"],
+        mono: ["Manrope", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
