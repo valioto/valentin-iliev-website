@@ -5,6 +5,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   {
@@ -25,7 +26,7 @@ const Navigation = () => {
       {/* Logo */}
       <div className="fixed top-0 left-0 z-50 p-6 md:p-8">
         <Link to="/" className="block">
-          <div className="text-2xl font-bold">VI</div>
+          <img src={logo} alt="Valentin Iliev Logo" className="h-8 w-auto" />
         </Link>
       </div>
       
