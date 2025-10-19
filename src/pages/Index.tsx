@@ -19,8 +19,7 @@ const Index = () => {
       logo: amazonLogo,
       logoAlt: "Amazon DSP",
       title: "Amazon DSP",
-      description: "I help brands and agencies connect with high value audiences, both on and off Amazon. My expertise lies in building tailored DSP campaigns that meet your unique business objectives effectively.",
-      popoverContent: "I help brands and agencies connect with high-value, high-intent audiences, both on and off Amazon. Amazon's DSP provides unmatched access to 230 million unique monthly shoppers across the US and 75 million in the EU. My expertise lies in building tailored DSP campaigns that leverage this immense scale and purchase data to drive verifiable business outcomes."
+      description: "I help brands and agencies connect with high-value, high-intent audiences, both on and off Amazon. Amazon's DSP provides unmatched access to 230 million unique monthly shoppers across the US and 75 million in the EU. My expertise lies in building tailored DSP campaigns that leverage this immense scale and purchase data to drive verifiable business outcomes."
     },
     {
       logo: amcLogo,
@@ -114,11 +113,7 @@ const Index = () => {
               </p>
               
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                With over 12 years of experience at Amazon, I've helped leading brands make the most of their ad budgets — ensuring every euro is invested in the right channels to drive measurable growth.
-              </p>
-              
-              <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                During my time at Amazon, I managed campaigns worth over €20 million ($23 million) and led projects that redefined how automotive advertisers connect with their audiences. From building new data-driven targeting models that improved campaign precision across Europe to launching Hyundai's Brand Space, Amazon's first automotive showroom in Europe — I know what it takes to turn strategy into performance.
+                Over 12 years at Amazon, I helped global brands and agencies turn strategy into measurable growth — managing campaigns with a total budget of more than €20 million ($23 million). My work focused on maximizing every advertising euro through data-driven media strategy and smart channel allocation.
               </p>
             </div>
           </div>
