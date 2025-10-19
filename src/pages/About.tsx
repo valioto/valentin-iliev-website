@@ -15,15 +15,23 @@ const About = () => {
           <div className="space-y-6 animate-fade-in">
             <div className="space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                I help brands turn advertising investment into consistent, measurable results.
               </p>
               
               <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                Before launching my consulting practice, I spent 12 years at Amazon, where I was responsible for the advertising strategy and execution for some of the world's most recognizable brands — managing campaigns that collectively delivered over €20 million ($23 million) in media budget.
               </p>
               
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam?
+                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While leading Amazon's Automotive category first in the UK and later in Germany, I learned how to design data-driven strategies that deliver both scale and precision.
+              </p>
+              
+              <p>
+                At Amazon, I introduced a new generation of Automotive audience targeting, built from a database of over 28 million registered vehicle owners. This innovation improved campaign accuracy, boosted performance, and became a blueprint for how advertisers across Europe reach their ideal customers. I also led the launch of Hyundai's Brand Space, Amazon's first automotive showroom in Europe — an immersive digital experience that transformed how car brands tell their stories online.
+              </p>
+              
+              <p>
+                Today, I bring that same strategic and performance-driven mindset to every brand I work with — helping clients cut through noise, optimize their spend, and achieve advertising that truly moves the needle.
               </p>
             </div>
           </div>

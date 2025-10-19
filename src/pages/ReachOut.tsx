@@ -70,11 +70,8 @@ const ReachOut = () => {
       <main className="container max-w-3xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
         <div className="space-y-12 animate-fade-in">
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-              Reach Out
-            </h1>
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              The most powerful projects begin with an invitation. Share a brief overview of your challenge below, and I will be in touch to see if my advertising expertise is the perfect fit to drive your growth.
+              The most powerful projects begin with an invitation. Share a brief overview of your advertising challenge below, and I will be in touch to see if my expertise is the perfect fit to drive your growth.
             </p>
           </div>
 

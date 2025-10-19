@@ -20,7 +20,7 @@ const Index = () => {
       logoAlt: "Amazon DSP",
       title: "Amazon DSP",
       description: "I help brands and agencies connect with high value audiences, both on and off Amazon. My expertise lies in building tailored DSP campaigns that meet your unique business objectives effectively.",
-      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      popoverContent: "I help brands and agencies connect with high-value, high-intent audiences, both on and off Amazon. Amazon's DSP provides unmatched access to 230 million unique monthly shoppers across the US and 75 million in the EU. My expertise lies in building tailored DSP campaigns that leverage this immense scale and purchase data to drive verifiable business outcomes."
     },
     {
       logo: amcLogo,
@@ -55,10 +55,10 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-3 animate-fade-in">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                Hello
+                Hello,
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Valentin Iliev, the Media Buyer and Consultant who scales Brands effectively across Europe and North America.
+                I'm Valentin Iliev, a Media Buyer and Consultant who scales Brands effectively across Europe and North America.
               </p>
             </div>
             
@@ -110,11 +110,15 @@ const Index = () => {
             
             <div className="space-y-6 animate-fade-in order-1 md:order-2" style={{ animationDelay: "0.2s" }}>
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                I'm a Media Buyer and Consultant who knows the ins and outs of scaling brands through performance-driven advertising.
               </p>
               
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                With over 12 years of experience at Amazon, I've helped leading brands make the most of their ad budgets — ensuring every euro is invested in the right channels to drive measurable growth.
+              </p>
+              
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                During my time at Amazon, I managed campaigns worth over €20 million ($23 million) and led projects that redefined how automotive advertisers connect with their audiences. From building new data-driven targeting models that improved campaign precision across Europe to launching Hyundai's Brand Space, Amazon's first automotive showroom in Europe — I know what it takes to turn strategy into performance.
               </p>
             </div>
           </div>
