@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
 import {
@@ -64,10 +66,10 @@ const ReachOut = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="container max-w-3xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+      <main className="flex-grow container max-w-3xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
         <div className="space-y-12 animate-fade-in">
           <div className="space-y-6">
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
@@ -166,8 +168,17 @@ const ReachOut = () => {
               </Button>
             </form>
           </Form>
+
+          <p className="text-xs text-muted-foreground mt-8">
+            The information you provide will be used only to respond to your message and will not be shared with third parties. For details, please review my{" "}
+            <Link to="/privacy-policy" className="underline hover:text-foreground transition-colors">
+              Privacy Policy
+            </Link>.
+          </p>
         </div>
       </main>
+      
+      <Footer />
     </div>
   );
 };

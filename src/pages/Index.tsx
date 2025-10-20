@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import ServiceCard from "@/components/ServiceCard";
 import BrandLogos from "@/components/BrandLogos";
+import Footer from "@/components/Footer";
 import heroPortrait from "@/assets/hero-portrait.jpg";
 import workspacePortrait from "@/assets/workspace-portrait.jpg";
 import amazonLogo from "@/assets/amazon-logo.png";
@@ -45,7 +46,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
       <main>
@@ -123,6 +124,8 @@ const Index = () => {
         {/* Brands Section */}
         <BrandLogos />
       </main>
+      
+      <Footer />
     </div>
   );
 };

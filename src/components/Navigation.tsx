@@ -18,6 +18,11 @@ const navItems = [
     path: "/reach-out",
     description: "Let's discuss how I can help scale your brand"
   },
+  {
+    name: "Privacy policy",
+    path: "/privacy-policy",
+    description: "View our privacy policy"
+  },
 ];
 
 const Navigation = () => {

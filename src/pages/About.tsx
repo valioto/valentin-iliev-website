@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -7,10 +8,11 @@ const About = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="container max-w-6xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+      <main className="flex-grow container max-w-6xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+        <h1 className="text-sm font-bold mb-8">About</h1>
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-start">
           <div className="space-y-6 animate-fade-in">
             <div className="space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
@@ -47,6 +49,8 @@ const About = () => {
           </div>
         </div>
       </main>
+      
+      <Footer />
     </div>
   );
 };
