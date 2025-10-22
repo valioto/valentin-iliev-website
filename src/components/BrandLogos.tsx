@@ -78,7 +78,7 @@ const BrandLogos = () => {
               <img 
                 src={brand.logo} 
                 alt={brand.name} 
-                className="max-h-12 max-w-full object-contain"
+                className="w-full h-full max-h-12 max-w-[120px] object-contain grayscale brightness-0 contrast-100"
               />
             </div>
           ))}
