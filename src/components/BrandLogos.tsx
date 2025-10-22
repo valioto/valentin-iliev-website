@@ -73,12 +73,12 @@ const BrandLogos = () => {
           {brands.map((brand) => (
             <div 
               key={brand.name} 
-              className="flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300"
+              className="flex items-center justify-center w-full h-20 p-4 bg-white rounded-lg opacity-70 hover:opacity-100 transition-opacity duration-300"
             >
               <img 
                 src={brand.logo} 
                 alt={brand.name} 
-                className="max-h-12 max-w-full object-contain filter grayscale"
+                className="max-h-12 max-w-full object-contain"
               />
             </div>
           ))}
