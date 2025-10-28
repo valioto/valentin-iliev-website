@@ -15,7 +15,7 @@ const Index = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const services = [
+  const coreServices = [
     {
       logo: amazonLogo,
       logoAlt: "Amazon DSP",
@@ -26,22 +26,22 @@ const Index = () => {
       logo: amcLogo,
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
-      description: "Want to know the true impact of your ad spend? I use Amazon Marketing Cloud to help you gain a full-funnel view of your campaigns, connecting your data with Amazon's to reveal powerful insights. This allows us to optimize your strategy for maximum effectiveness, ensuring every investment works harder.",
-      popoverContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    },
+      description: "Want to know the true impact of your ad spend? I use Amazon Marketing Cloud to help you gain a full-funnel view of your campaigns, connecting your data with Amazon's to reveal powerful insights. This allows us to optimize your strategy for maximum effectiveness, ensuring every investment works harder."
+    }
+  ];
+
+  const complementaryServices = [
     {
       logo: metaLogo,
       logoAlt: "Instagram and Facebook",
       title: "Instagram and Facebook",
-      description: "I leverage the unparalleled scale and surgical precision targeting of Meta's platforms (Facebook & Instagram) to secure the ideal audience for your brand. The Meta family of apps now reaches over 452 and 545 million monthly active users across the US and EU accordingly, providing massive, reliable scale.",
-      popoverContent: "I leverage the unparalleled scale and surgical precision targeting of Meta's platforms (Facebook & Instagram) to secure the ideal audience for your brand. The Meta family of apps now reaches over 452 and 545 million monthly active users across the US and EU accordingly, providing massive, reliable scale. I build campaigns that directly match your core business objectives, ensuring every advertising resource is spent to deliver the measurable results you need for awareness, intent, or purchase."
+      description: "I leverage the unparalleled scale and surgical precision targeting of Meta's platforms (Facebook & Instagram) to secure the ideal audience for your brand. The Meta family of apps now reaches over 452 and 545 million monthly active users across the US and EU accordingly, providing massive, reliable scale. I build campaigns that directly match your core business objectives, ensuring every advertising resource is spent to deliver the measurable results you need for awareness, intent, or purchase."
     },
     {
       logo: tiktokLogo,
       logoAlt: "TikTok",
       title: "TikTok",
-      description: "TikTok is key for future-proofing your brand. With 170 million monthly active US users and 169 million EU users, its explosive growth is now rapidly attracting older, high-value audiences alongside its core youth market.",
-      popoverContent: "TikTok is key for future-proofing your brand. With 170 million monthly active US users and 169 million EU users, its explosive growth is now rapidly attracting older, high-value audiences alongside its core youth market. I create tailored TikTok strategies that generate high-impact exposure and deep consumer engagement, designed to meet your specific goals—whether that is brand awareness, driving consideration, or maximizing direct conversions."
+      description: "TikTok is key for future-proofing your brand. With 170 million monthly active US users and 169 million EU users, its explosive growth is now rapidly attracting older, high-value audiences alongside its core youth market. I create tailored TikTok strategies that generate high-impact exposure and deep consumer engagement, designed to meet your specific goals—whether that is brand awareness, driving consideration, or maximizing direct conversions."
     }
   ];
 
@@ -80,16 +80,46 @@ const Index = () => {
             <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">
               Get started
             </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {services.map((service, index) => (
-                <div 
-                  key={service.title} 
-                  className="animate-fade-in"
-                  style={{ animationDelay: `${0.1 * index}s` }}
-                >
-                  <ServiceCard {...service} />
-                </div>
-              ))}
+            
+            {/* Intro Paragraph */}
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto mb-16 animate-fade-in">
+              While I manage campaigns across multiple ecosystems, my core focus and expertise lie in Amazon DSP and Amazon Marketing Cloud (AMC). For clients seeking consistent cross-channel performance, I also support campaigns on Meta and TikTok — integrating insights from Amazon's ecosystem to maximise results.
+            </p>
+
+            {/* Core Amazon Services */}
+            <div className="mb-20 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+              <h3 className="text-xl md:text-2xl font-bold mb-8 text-center">
+                Core Amazon Services
+              </h3>
+              <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                {coreServices.map((service, index) => (
+                  <div 
+                    key={service.title} 
+                    className="animate-fade-in border-2 border-primary/10 rounded-lg p-2 hover:border-primary/20 transition-colors"
+                    style={{ animationDelay: `${0.2 + 0.1 * index}s` }}
+                  >
+                    <ServiceCard {...service} />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Complementary Platforms */}
+            <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
+              <h3 className="text-xl md:text-2xl font-bold mb-8 text-center">
+                Complementary Platforms
+              </h3>
+              <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                {complementaryServices.map((service, index) => (
+                  <div 
+                    key={service.title} 
+                    className="animate-fade-in"
+                    style={{ animationDelay: `${0.5 + 0.1 * index}s` }}
+                  >
+                    <ServiceCard {...service} />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>
