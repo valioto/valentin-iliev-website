@@ -30,7 +30,7 @@ const Navigation = () => {
     <>
       {/* Logo */}
       <div className="fixed top-0 left-0 z-50 p-6 md:p-8">
-        <Link to="/" className="block bg-white p-2 rounded-sm">
+        <Link to="/" className="block p-2 rounded-sm">
           <img src={logo} alt="Valentin Iliev Logo" className="h-8 w-auto" />
         </Link>
       </div>
