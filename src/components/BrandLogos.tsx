@@ -62,6 +62,14 @@ const brands = [
   { name: "American Airlines", logo: americanairlinesLogo },
 ];
 
+const logoScales: Record<string, string> = {
+  "Ford": "scale-90",
+  "Cupra": "scale-110", 
+  "Olympus": "scale-110",
+  "Shell": "scale-95",
+  "HSBC": "scale-105",
+};
+
 const BrandLogos = () => {
   return (
     <section className="py-16 md:py-24">
@@ -73,12 +81,12 @@ const BrandLogos = () => {
           {brands.map((brand) => (
             <div 
               key={brand.name} 
-              className="flex items-center justify-center w-full h-20 p-4 bg-white rounded-lg opacity-70 hover:opacity-100 transition-opacity duration-300"
+              className="flex items-center justify-center w-full h-24 p-4 bg-white rounded-lg opacity-70 hover:opacity-100 transition-opacity duration-300"
             >
               <img 
                 src={brand.logo} 
                 alt={brand.name} 
-                className="w-full h-full max-h-12 max-w-[120px] object-contain grayscale"
+                className={`max-w-[100px] max-h-[48px] object-contain grayscale ${logoScales[brand.name] || ''}`}
               />
             </div>
           ))}
