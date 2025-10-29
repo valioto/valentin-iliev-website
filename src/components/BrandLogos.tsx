@@ -75,7 +75,7 @@ const BrandLogos = () => {
     <section className="py-16 md:py-24">
       <div className="container max-w-6xl">
         <h2 className="text-sm font-bold mb-12 text-center">
-          At Amazon I was responsible for the advertising strategy and execution for a number of brands including:
+          While at Amazon, I led advertising strategy and execution for brands including:
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center justify-items-center">
           {brands.map((brand) => (
