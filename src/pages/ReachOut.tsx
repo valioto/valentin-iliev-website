@@ -73,7 +73,7 @@ const ReachOut = () => {
         <div className="space-y-12 animate-fade-in">
           <div className="space-y-6">
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              The most powerful projects begin with an invitation. Share a brief overview of your advertising challenge below, and I will be in touch to see if my expertise is the perfect fit to drive your growth.
+              The most powerful projects begin with a conversation. Share a brief overview of your advertising challenge below, and I'll get in touch for a free consultation to see if my expertise is the right fit to drive your growth.
             </p>
           </div>
 
