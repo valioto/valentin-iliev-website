@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 import ServiceCard from "@/components/ServiceCard";
 import BrandLogos from "@/components/BrandLogos";
 import Footer from "@/components/Footer";
-import heroPortrait from "@/assets/hero-portrait.jpg";
+import heroPortrait from "@/assets/hero-portrait-new.jpg";
 import workspacePortrait from "@/assets/workspace-portrait.jpg";
 import amazonLogo from "@/assets/amazon-logo.png";
 import amcLogo from "@/assets/amc-logo.png";

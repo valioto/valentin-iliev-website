@@ -2,7 +2,7 @@ import volkswagenLogo from "@/assets/volkswagen-logo.png";
 import audiLogo from "@/assets/audi-logo.png";
 import porscheLogo from "@/assets/porsche-logo.png";
 import cupraLogo from "@/assets/cupra-logo.png";
-import mercedesLogo from "@/assets/mercedes-logo.png";
+import mercedesLogo from "@/assets/mercedes-logo-new.png";
 import bmwLogo from "@/assets/bmw-logo.png";
 import landroverLogo from "@/assets/landrover-logo.png";
 import hondaLogo from "@/assets/honda-logo.png";
