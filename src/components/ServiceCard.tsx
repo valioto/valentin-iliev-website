@@ -17,7 +17,7 @@ const ServiceCard = ({ logo, logoAlt, title, description }: ServiceCardProps) =>
         />
       </div>
       <h3 className="text-lg font-bold font-mono">{title}</h3>
-      <p className="text-sm text-muted-foreground leading-relaxed">{description}</p>
+      <p className="text-sm md:text-base text-muted-foreground leading-relaxed">{description}</p>
     </div>
   );
 };

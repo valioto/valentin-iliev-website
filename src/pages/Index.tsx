@@ -89,13 +89,13 @@ const Index = () => {
             {/* Core Amazon Services */}
             <div className="mb-20 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <h3 className="text-xl md:text-2xl font-bold mb-8 text-center">
-                Core Amazon Services
+                Amazon Services
               </h3>
               <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 {coreServices.map((service, index) => (
                   <div 
                     key={service.title} 
-                    className="animate-fade-in border-2 border-primary/10 rounded-lg p-2 hover:border-primary/20 transition-colors"
+                    className="animate-fade-in"
                     style={{ animationDelay: `${0.2 + 0.1 * index}s` }}
                   >
                     <ServiceCard {...service} />
@@ -107,7 +107,7 @@ const Index = () => {
             {/* Complementary Platforms */}
             <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <h3 className="text-xl md:text-2xl font-bold mb-8 text-center">
-                Complementary Platforms
+                Other platforms
               </h3>
               <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 {complementaryServices.map((service, index) => (

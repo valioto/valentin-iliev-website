@@ -21,19 +21,19 @@ const About = () => {
               </p>
               
               <p>
-                Before launching my consulting practice, I spent 12 years at Amazon, where I was responsible for the advertising strategy and execution for some of the world's most recognizable brands — managing campaigns that collectively delivered over €20 million ($23 million) in media budget.
+                Before launching my consulting practice, I spent 12 years at Amazon, where I was responsible for the advertising strategy and execution for some of the world's most recognisable brands — managing campaigns that collectively delivered over €20 million ($23 million) in media budget.
               </p>
               
               <p>
-                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While leading Amazon's Automotive category first in the UK and later in Germany, I learned how to design data-driven strategies that deliver both scale and precision.
+                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While managing Amazon's Automotive category first in the UK and later in Germany, I learned how to design data-driven strategies that deliver both scale and precision.
               </p>
               
               <p>
-                At Amazon, I introduced a new generation of Automotive audience targeting, built from a database of over 28 million registered vehicle owners. This innovation improved campaign accuracy, boosted performance, and became a blueprint for how advertisers across Europe reach their ideal customers. I also led the launch of Hyundai's Brand Space, Amazon's first automotive showroom in Europe — an immersive digital experience that transformed how car brands tell their stories online.
+                At Amazon, I introduced a new generation of Automotive audience targeting, built from a database of millions vehicle owners. This innovation improved campaign accuracy, boosted performance, and became a blueprint for how automotive and other advertisers across Europe reach their ideal customers. I also led the launch of Hyundai's Brand Space, Amazon's first automotive showroom in Europe — an immersive digital experience that transformed how car brands tell their stories online.
               </p>
               
               <p>
-                Today, I bring that same strategic and performance-driven mindset to every brand I work with — helping clients cut through noise, optimize their spend, and achieve advertising that truly moves the needle.
+                Today, I bring that same strategic and performance-driven mindset to every brand I work with — helping clients cut through noise, optimise their spend, and achieve advertising that truly moves the needle.
               </p>
             </div>
           </div>
