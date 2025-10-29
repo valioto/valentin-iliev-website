@@ -63,13 +63,11 @@ const Index = () => {
             </div>
             
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <div className="aspect-[3/4] overflow-hidden">
-                <img 
-                  src={heroPortrait} 
-                  alt="Valentin Iliev - Media Buyer and Consultant" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <img 
+                src={heroPortrait} 
+                alt="Valentin Iliev - Media Buyer and Consultant" 
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </section>
