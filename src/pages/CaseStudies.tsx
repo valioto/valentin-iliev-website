@@ -93,9 +93,6 @@ const CaseStudies = () => {
         {/* Hero Section */}
         <section className="pt-32 pb-16 px-6">
           <div className="container max-w-6xl mx-auto">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Case Studies
-            </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl">
               Explore successful campaign optimisations and measurable outcomes across automotive, energy, consumer electronics, and food delivery sectors.
             </p>
