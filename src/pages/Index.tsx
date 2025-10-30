@@ -65,11 +65,6 @@ const Index = () => {
                   I'm Valentin Iliev, a Media Buyer and Consultant who scales Brands effectively across Europe and North America.
                 </p>
               </div>
-              <Link to="/reach-out">
-                <Button className="bg-foreground text-background hover:bg-foreground/90 font-bold">
-                  Let's Talk
-                </Button>
-              </Link>
             </div>
             
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
