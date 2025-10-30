@@ -25,7 +25,7 @@ const About = () => {
               </p>
               
               <p>
-                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While managing Amazon's Automotive category first in the UK and later in Germany, I also served as the Global Account Manager for the Volkswagen Group, leading international strategy and coordination across its brands.
+                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While managing Amazon's Automotive category first in the UK and later in Germany, and also serving as the Global Account Manager for Volkswagen Group, I mastered the design of data-driven strategies that deliver both scale and precision.
               </p>
               
               <p>
