@@ -4,7 +4,7 @@ import ServiceCard from "@/components/ServiceCard";
 import BrandLogos from "@/components/BrandLogos";
 import Footer from "@/components/Footer";
 import heroPortrait from "@/assets/hero-portrait-new.jpg";
-import workspacePortrait from "@/assets/workspace-portrait.jpg";
+import aboutMeInfo from "@/assets/about-me-info.jpg";
 import amazonLogo from "@/assets/amazon-logo.png";
 import amcLogo from "@/assets/amc-logo.png";
 import metaLogo from "@/assets/meta-logo.png";
@@ -81,7 +81,7 @@ const Index = () => {
             
             {/* Intro Paragraph */}
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto mb-16 animate-fade-in">
-              While I manage campaigns across multiple ecosystems, my core focus and expertise lie in Amazon DSP and Amazon Marketing Cloud (AMC). For clients seeking consistent cross-channel performance, I also support campaigns on Meta and TikTok — integrating insights from Amazon's ecosystem to maximise results.
+              My core focus and expertise lie in Amazon DSP and Amazon Marketing Cloud (AMC). For clients seeking consistent cross-channel performance, I also support campaigns on Meta and TikTok — integrating insights from Amazon's ecosystem to maximise results.
             </p>
 
             {/* Core Amazon Services */}
@@ -129,8 +129,8 @@ const Index = () => {
             <div className="animate-fade-in order-2 md:order-1">
               <div className="aspect-[3/4] bg-muted rounded-sm overflow-hidden">
                 <img 
-                  src={workspacePortrait} 
-                  alt="Valentin Iliev at work" 
+                  src={aboutMeInfo} 
+                  alt="Valentin Iliev" 
                   className="w-full h-full object-cover"
                 />
               </div>

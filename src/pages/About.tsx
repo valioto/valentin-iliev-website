@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import aboutPortrait from "@/assets/about-portrait.jpg";
 
 const About = () => {
   useEffect(() => {
@@ -40,7 +41,7 @@ const About = () => {
           <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <div className="aspect-[3/4] bg-muted rounded-sm overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop" 
+                src={aboutPortrait} 
                 alt="Valentin Iliev" 
                 className="w-full h-full object-cover"
               />
