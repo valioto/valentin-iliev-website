@@ -19,6 +19,11 @@ const navItems = [
     description: "Let's discuss how I can help scale your brand"
   },
   {
+    name: "Case studies",
+    path: "/case-studies",
+    description: "Explore successful campaign optimisations and outcomes"
+  },
+  {
     name: "Privacy policy",
     path: "/privacy-policy",
     description: "View our privacy policy"
