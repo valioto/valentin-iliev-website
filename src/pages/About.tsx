@@ -25,11 +25,11 @@ const About = () => {
               </p>
               
               <p>
-                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While managing Amazon's Automotive category first in the UK and later in Germany, I learned how to design data-driven strategies that deliver both scale and precision.
+                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While managing Amazon's Automotive category first in the UK and later in Germany, I also served as the Global Account Manager for the Volkswagen Group, leading international strategy and coordination across its brands.
               </p>
               
               <p>
-                At Amazon, I introduced a new generation of Automotive audience targeting, built from a database of millions vehicle owners. This innovation improved campaign accuracy, boosted performance, and became a blueprint for how automotive and other advertisers across Europe reach their ideal customers. I also led the launch of Hyundai's Brand Space, Amazon's first automotive showroom in Europe — an immersive digital experience that transformed how car brands tell their stories online.
+                At Amazon, I introduced a new generation of Automotive audience targeting, built from a database of millions of vehicle owners. This innovation improved campaign accuracy, boosted performance, and became a blueprint for how automotive and other advertisers across Europe reach their ideal customers. I also led the launch of Hyundai's Brand Space, Amazon's first automotive showroom in Europe — an immersive digital experience that transformed how car brands tell their stories online.
               </p>
               
               <p>
