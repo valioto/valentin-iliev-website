@@ -9,6 +9,9 @@ import amazonLogo from "@/assets/amazon-logo.png";
 import amcLogo from "@/assets/amc-logo.png";
 import metaLogo from "@/assets/meta-logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.png";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import FloatingCTA from "@/components/FloatingCTA";
 
 const Index = () => {
   useEffect(() => {
@@ -53,13 +56,20 @@ const Index = () => {
         {/* Hero Section */}
         <section className="container max-w-6xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="space-y-3 animate-fade-in">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                Hello,
-              </h1>
-              <p className="text-lg md:text-xl text-muted-foreground">
-                I'm Valentin Iliev, a Media Buyer and Consultant who scales Brands effectively across Europe and North America.
-              </p>
+            <div className="space-y-6 animate-fade-in">
+              <div className="space-y-3">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                  Hello,
+                </h1>
+                <p className="text-lg md:text-xl text-muted-foreground">
+                  I'm Valentin Iliev, a Media Buyer and Consultant who scales Brands effectively across Europe and North America.
+                </p>
+              </div>
+              <Link to="/reach-out">
+                <Button className="bg-foreground text-background hover:bg-foreground/90 font-bold">
+                  Let's Talk
+                </Button>
+              </Link>
             </div>
             
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -87,7 +97,7 @@ const Index = () => {
             {/* Core Amazon Services */}
             <div className="mb-20 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <h3 className="text-xl md:text-2xl font-bold mb-8 text-center">
-                Amazon Services
+                Amazon services
               </h3>
               <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 {coreServices.map((service, index) => (
@@ -118,6 +128,15 @@ const Index = () => {
                   </div>
                 ))}
               </div>
+            </div>
+            
+            {/* CTA at end of services */}
+            <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+              <Link to="/reach-out">
+                <Button className="bg-foreground text-background hover:bg-foreground/90 font-bold" size="lg">
+                  Let's Talk
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
@@ -153,6 +172,7 @@ const Index = () => {
         <BrandLogos />
       </main>
       
+      <FloatingCTA />
       <Footer />
     </div>
   );

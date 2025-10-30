@@ -8,7 +8,7 @@ interface ServiceCardProps {
 
 const ServiceCard = ({ logo, logoAlt, title, description }: ServiceCardProps) => {
   return (
-    <div className="flex flex-col items-center text-center space-y-4 p-6">
+    <div className="flex flex-col items-center text-center space-y-4 p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg rounded-lg">
       <div className="h-16 w-16 flex items-center justify-center">
         <img 
           src={logo} 

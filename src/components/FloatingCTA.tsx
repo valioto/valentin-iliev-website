@@ -1,0 +1,22 @@
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { useIsMobile } from "@/hooks/use-mobile";
+
+const FloatingCTA = () => {
+  const isMobile = useIsMobile();
+
+  if (!isMobile) return null;
+
+  return (
+    <Link to="/reach-out">
+      <Button 
+        className="fixed bottom-6 right-6 z-50 shadow-lg bg-foreground text-background hover:bg-foreground/90 font-bold animate-fade-in"
+        size="lg"
+      >
+        Let's Talk
+      </Button>
+    </Link>
+  );
+};
+
+export default FloatingCTA;

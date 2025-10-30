@@ -18,6 +18,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
+import FloatingCTA from "@/components/FloatingCTA";
 
 const formSchema = z.object({
   name: z.string().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
@@ -30,6 +31,7 @@ type FormValues = z.infer<typeof formSchema>;
 
 const ReachOut = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -55,8 +57,11 @@ const ReachOut = () => {
 
       if (error) throw error;
 
-      toast.success("Thank you! I'll be in touch soon.");
+      setShowSuccess(true);
       form.reset();
+      
+      // Hide success animation after 4 seconds
+      setTimeout(() => setShowSuccess(false), 4000);
     } catch (error) {
       console.error('Error sending message:', error);
       toast.error("Failed to send message. Please try again.");
@@ -70,10 +75,35 @@ const ReachOut = () => {
       <Navigation />
       
       <main className="flex-grow container max-w-3xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+        {/* Success Animation */}
+        {showSuccess && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm animate-fade-in">
+            <div className="bg-card border border-border rounded-lg p-8 max-w-md mx-4 text-center space-y-4 animate-scale-in">
+              <div className="w-16 h-16 mx-auto bg-primary/10 rounded-full flex items-center justify-center">
+                <svg 
+                  className="w-8 h-8 text-primary" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    strokeWidth={2} 
+                    d="M5 13l4 4L19 7" 
+                  />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold">Thank you!</h3>
+              <p className="text-muted-foreground">I'll be in touch soon.</p>
+            </div>
+          </div>
+        )}
+        
         <div className="space-y-12 animate-fade-in">
           <div className="space-y-6">
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              The most powerful projects begin with a conversation. Share a brief overview of your advertising challenge below, and I'll get in touch for a free consultation to see if my expertise is the right fit to drive your growth.
+              The most powerful projects begin with a conversation. Share a brief overview of your advertising challenge below, and I'll get in touch for a free consultation to see if my expertise is the right fit to drive your growth. I typically respond within 24 hours.
             </p>
           </div>
 
@@ -178,6 +208,7 @@ const ReachOut = () => {
         </div>
       </main>
       
+      <FloatingCTA />
       <Footer />
     </div>
   );

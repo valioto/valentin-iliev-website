@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import FloatingCTA from "@/components/FloatingCTA";
 import aboutPortrait from "@/assets/about-portrait.jpg";
 
 const About = () => {
@@ -50,6 +51,7 @@ const About = () => {
         </div>
       </main>
       
+      <FloatingCTA />
       <Footer />
     </div>
   );
