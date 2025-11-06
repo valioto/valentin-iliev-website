@@ -13,7 +13,7 @@ const About = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="flex-grow container max-w-6xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+      <main className="flex-grow container max-w-6xl pt-40 sm:pt-44 md:pt-44 pb-16 md:pb-24 px-6">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-start">
           <div className="space-y-6 animate-fade-in">
             <div className="space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
