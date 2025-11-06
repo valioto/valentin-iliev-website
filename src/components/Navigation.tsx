@@ -41,7 +41,7 @@ const Navigation = () => {
       </div>
       
       {/* Navigation */}
-      <nav className="fixed top-0 right-0 z-50 p-6 md:p-8">
+      <nav className="fixed top-0 right-0 z-50 p-6 md:p-8 bg-background/80 backdrop-blur-sm rounded-bl-lg">
         <TooltipProvider delayDuration={200}>
           <ul className="flex flex-col gap-2">
             {navItems.map((item) => (
