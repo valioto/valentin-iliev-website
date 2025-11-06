@@ -54,7 +54,7 @@ const Index = () => {
       
       <main>
         {/* Hero Section */}
-        <section className="container max-w-6xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+        <section className="container max-w-6xl pt-32 sm:pt-36 md:pt-32 pb-16 md:pb-24 px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-6 animate-fade-in">
               <div className="space-y-3">
@@ -67,7 +67,7 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="animate-fade-in mt-16 sm:mt-20 md:mt-0" style={{ animationDelay: "0.2s" }}>
+            <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <img 
                 src={heroPortrait} 
                 alt="Valentin Iliev - Media Buyer and Consultant" 
