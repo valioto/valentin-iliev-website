@@ -8,7 +8,7 @@ const FloatingCTA = () => {
   if (!isMobile) return null;
 
   return (
-    <Link to="/reach-out">
+    <Link to="/lets-talk">
       <Button 
         className="fixed bottom-6 right-6 z-50 shadow-lg bg-foreground text-background hover:bg-foreground/90 font-bold animate-fade-in"
         size="lg"

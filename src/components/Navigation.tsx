@@ -15,7 +15,7 @@ const navItems = [
   },
   {
     name: "Let's talk",
-    path: "/reach-out",
+    path: "/lets-talk",
     description: "Let's discuss how I can help scale your brand"
   },
   {
