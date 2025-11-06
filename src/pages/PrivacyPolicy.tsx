@@ -23,9 +23,6 @@ const PrivacyPolicy = () => {
               I respect your privacy and am committed to protecting your personal information.<br />
               This notice explains how I collect, use, and safeguard any data you share when using this site.
             </p>
-
-            <p className="text-center">⸻</p>
-
             <div>
               <h2 className="font-bold text-foreground mb-2">1. Information I Collect</h2>
               <p className="mb-2">
@@ -37,18 +34,12 @@ const PrivacyPolicy = () => {
                 These tools collect non-identifiable information such as page views, time on site, and browser type.
               </p>
             </div>
-
-            <p className="text-center">⸻</p>
-
             <div>
               <h2 className="font-bold text-foreground mb-2">2. Lawful Basis for Processing</h2>
               <p>
                 The lawful basis for processing your personal data is legitimate interest — specifically, to respond to your inquiry, provide information you requested, or discuss potential collaboration or services.
               </p>
             </div>
-
-            <p className="text-center">⸻</p>
-
             <div>
               <h2 className="font-bold text-foreground mb-2">3. How I Use Your Information</h2>
               <p className="mb-2">Your information is used solely to:</p>
@@ -59,9 +50,6 @@ const PrivacyPolicy = () => {
               </ul>
               <p className="mt-2">I will never sell or rent your data to any third parties.</p>
             </div>
-
-            <p className="text-center">⸻</p>
-
             <div>
               <h2 className="font-bold text-foreground mb-2">4. Data Storage & Security</h2>
               <p className="mb-2">
@@ -70,9 +58,6 @@ const PrivacyPolicy = () => {
                 Reasonable technical and organizational measures are in place to prevent unauthorized access, loss, or misuse.
               </p>
             </div>
-
-            <p className="text-center">⸻</p>
-
             <div>
               <h2 className="font-bold text-foreground mb-2">5. Cookies</h2>
               <p>
@@ -80,9 +65,6 @@ const PrivacyPolicy = () => {
                 You can adjust your browser settings at any time to decline or delete cookies.
               </p>
             </div>
-
-            <p className="text-center">⸻</p>
-
             <div>
               <h2 className="font-bold text-foreground mb-2">6. Your Rights</h2>
               <p className="mb-2">
@@ -102,7 +84,7 @@ const PrivacyPolicy = () => {
               </p>
             </div>
 
-            <p className="text-center">⸻</p>
+            
 
             <div>
               <h2 className="font-bold text-foreground mb-2">7. Contact</h2>
