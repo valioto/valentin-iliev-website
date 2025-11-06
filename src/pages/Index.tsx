@@ -54,7 +54,7 @@ const Index = () => {
       
       <main>
         {/* Hero Section */}
-        <section className="container max-w-6xl pt-32 sm:pt-36 md:pt-32 pb-16 md:pb-24 px-6">
+        <section className="container max-w-6xl pt-40 sm:pt-44 md:pt-32 pb-16 md:pb-24 px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-6 animate-fade-in">
               <div className="space-y-3">
