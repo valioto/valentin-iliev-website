@@ -52,11 +52,10 @@ const Navigation = () => {
                       to={item.path}
                       end
                       className={({ isActive }) =>
-                        `text-sm font-bold lowercase font-mono transition-colors text-white ${
-                          isActive ? "opacity-100" : "opacity-70"
+                        `text-sm font-bold lowercase font-mono transition-colors ${
+                          isActive ? "text-foreground" : "text-muted-foreground"
                         }`
                       }
-                      style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.9)' }}
                     >
                       {item.name}
                     </NavLink>

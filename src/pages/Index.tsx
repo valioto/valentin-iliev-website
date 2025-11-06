@@ -67,7 +67,7 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
+            <div className="animate-fade-in mt-16 sm:mt-20 md:mt-0" style={{ animationDelay: "0.2s" }}>
               <img 
                 src={heroPortrait} 
                 alt="Valentin Iliev - Media Buyer and Consultant" 
