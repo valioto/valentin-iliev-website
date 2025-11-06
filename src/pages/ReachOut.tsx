@@ -200,7 +200,7 @@ const ReachOut = () => {
           </Form>
 
           <p className="text-xs text-muted-foreground mt-8">
-            The information you provide will be used only to respond to your message and will not be shared with third parties. For details, please review my{" "}
+            By submitting this form, you acknowledge that your information will be used to respond to your inquiry in accordance with the{" "}
             <Link to="/privacy-policy" className="underline hover:text-foreground transition-colors">
               Privacy Policy
             </Link>.
