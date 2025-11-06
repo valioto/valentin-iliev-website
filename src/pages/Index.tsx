@@ -59,10 +59,10 @@ const Index = () => {
             <div className="space-y-6 animate-fade-in">
               <div className="space-y-3">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                  Hello,
+                  Hello, I'm Valentin Iliev,
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground">
-                  I'm Valentin Iliev, a Media Buyer and Consultant who scales Brands effectively across Europe and North America.
+                  Founder of 27x — a Media Buyer & Consultant who scales brands across Europe and North America.
                 </p>
               </div>
             </div>

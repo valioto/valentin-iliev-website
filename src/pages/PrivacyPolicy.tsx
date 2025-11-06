@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
             <p className="font-semibold text-foreground">Last updated: November 2025</p>
             
             <p>
-              This website is operated by Valentin Iliev ("I", "me", or "my"). I respect your privacy and am committed to protecting your personal information. This notice explains how I collect, use, and safeguard any data you share when using this site.
+              This website is operated by 27x Ltd ("I", "me", or "my"). I respect your privacy and am committed to protecting your personal information. This notice explains how I collect, use, and safeguard any data you share when using this site.
             </p>
 
             <div>
@@ -63,7 +63,7 @@ const PrivacyPolicy = () => {
                 Under GDPR, you have the right to request access to, correction of, or deletion of your personal data.
               </p>
               <p>
-                To exercise these rights, please contact me at [email address placeholder].
+                To exercise these rights, please contact me at valentin@27x.co.uk.
               </p>
             </div>
 
@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
               <p>If you have any questions about this Privacy Policy or how your data is handled, please contact:</p>
               <p className="mt-2">
                 Valentin Iliev<br />
-                📧 [email address placeholder]
+                📧 valentin@27x.co.uk
               </p>
             </div>
           </div>
