@@ -92,7 +92,7 @@ const CaseStudies = () => {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="pt-32 pb-16 px-6">
+        <section className="pt-40 sm:pt-44 md:pt-44 pb-16 px-6">
           <div className="container max-w-6xl mx-auto">
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl">
               Explore successful campaign optimisations and measurable outcomes across automotive, energy, consumer electronics, and food delivery sectors.
