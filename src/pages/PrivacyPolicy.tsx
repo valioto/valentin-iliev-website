@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
       <Navigation />
       
       <main className="flex-grow">
-        <section className="container max-w-4xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+        <section className="container max-w-4xl pt-40 sm:pt-44 md:pt-44 pb-16 md:pb-24 px-6">
           <h1 className="text-sm font-bold mb-8">Privacy Policy</h1>
           
           <div className="space-y-6 text-sm text-muted-foreground leading-relaxed">

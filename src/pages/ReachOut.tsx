@@ -74,7 +74,7 @@ const ReachOut = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="flex-grow container max-w-3xl pt-24 md:pt-32 pb-16 md:pb-24 px-6">
+      <main className="flex-grow container max-w-3xl pt-40 sm:pt-44 md:pt-44 pb-16 md:pb-24 px-6">
         {/* Success Animation */}
         {showSuccess && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm animate-fade-in">
