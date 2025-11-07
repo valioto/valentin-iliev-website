@@ -39,11 +39,17 @@ const handler = async (req: Request): Promise<Response> => {
       },
       body: JSON.stringify({
         from: "Contact Form <onboarding@resend.dev>",
-        to: ["valio.iliev@gmail.com"],
+        to: ["valentin@27x.co.uk"],
         subject: `New Contact from ${name}`,
         html: emailHtml,
       }),
     });
+
+    if (!res.ok) {
+      const errorData = await res.json();
+      console.error("Resend API error:", errorData);
+      throw new Error(`Failed to send email: ${errorData.message || res.statusText}`);
+    }
 
     const data = await res.json();
     console.log("Email sent successfully:", data);
