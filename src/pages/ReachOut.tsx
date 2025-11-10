@@ -19,6 +19,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import FloatingCTA from "@/components/FloatingCTA";
+import { trackContactFormSubmission } from "@/lib/analytics";
 
 const formSchema = z.object({
   name: z.string().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
@@ -59,6 +60,9 @@ const ReachOut = () => {
 
       setShowSuccess(true);
       form.reset();
+      
+      // Track successful form submission
+      trackContactFormSubmission();
       
       // Hide success animation after 4 seconds
       setTimeout(() => setShowSuccess(false), 4000);

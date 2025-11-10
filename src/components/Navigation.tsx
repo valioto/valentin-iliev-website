@@ -6,6 +6,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import logo from "@/assets/logo.png";
+import { trackCTAClick } from "@/lib/analytics";
 
 const navItems = [
   {
@@ -46,6 +47,11 @@ const Navigation = () => {
                     <NavLink
                       to={item.path}
                       end
+                      onClick={() => {
+                        if (item.path === "/lets-talk") {
+                          trackCTAClick("navigation_button");
+                        }
+                      }}
                       className={({ isActive }) =>
                         `text-sm font-bold lowercase font-mono transition-colors ${
                           isActive ? "text-foreground" : "text-muted-foreground"
