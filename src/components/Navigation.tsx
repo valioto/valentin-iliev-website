@@ -23,11 +23,6 @@ const navItems = [
     path: "/case-studies",
     description: "Explore successful campaign optimisations and outcomes"
   },
-  {
-    name: "Privacy policy",
-    path: "/privacy-policy",
-    description: "View our privacy policy"
-  },
 ];
 
 const Navigation = () => {

@@ -85,8 +85,12 @@ const BrandLogos = () => {
             >
               <img 
                 src={brand.logo} 
-                alt={brand.name} 
+                alt={`${brand.name} logo`}
                 className={`max-w-[100px] max-h-[48px] object-contain grayscale ${logoScales[brand.name] || ''}`}
+                width="100"
+                height="48"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           ))}

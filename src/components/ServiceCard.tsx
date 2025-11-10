@@ -14,6 +14,10 @@ const ServiceCard = ({ logo, logoAlt, title, description }: ServiceCardProps) =>
           src={logo} 
           alt={logoAlt} 
           className="max-h-full max-w-full object-contain filter grayscale"
+          width="64"
+          height="64"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <h3 className="text-lg font-bold font-mono">{title}</h3>

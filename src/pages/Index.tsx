@@ -72,6 +72,9 @@ const Index = () => {
                 src={heroPortrait} 
                 alt="Valentin Iliev - Media Buyer and Consultant" 
                 className="w-full h-auto"
+                width="800"
+                height="1067"
+                decoding="async"
               />
             </div>
           </div>
@@ -146,6 +149,10 @@ const Index = () => {
                   src={aboutMeInfo} 
                   alt="Valentin Iliev" 
                   className="w-full h-full object-cover"
+                  width="600"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
