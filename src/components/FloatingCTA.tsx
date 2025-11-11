@@ -9,13 +9,13 @@ const FloatingCTA = () => {
   if (!isMobile) return null;
 
   return (
-    <Link to="/lets-talk">
+    <Link to="/request-a-consultation">
       <Button 
         className="fixed bottom-6 right-6 z-50 shadow-lg bg-foreground text-background hover:bg-foreground/90 font-bold animate-fade-in"
         size="lg"
         onClick={() => trackCTAClick("floating_button")}
       >
-        Let's Talk
+        → Request a consultation
       </Button>
     </Link>
   );

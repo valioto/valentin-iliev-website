@@ -15,8 +15,8 @@ const navItems = [
     description: "Learn about my journey and expertise"
   },
   {
-    name: "Let's talk",
-    path: "/lets-talk",
+    name: "Request a consultation",
+    path: "/request-a-consultation",
     description: "Let's discuss how I can help scale your brand"
   },
   {
@@ -48,7 +48,7 @@ const Navigation = () => {
                       to={item.path}
                       end
                       onClick={() => {
-                        if (item.path === "/lets-talk") {
+                        if (item.path === "/request-a-consultation") {
                           trackCTAClick("navigation_button");
                         }
                       }}

@@ -166,11 +166,11 @@ I help brands:
             
             {/* CTA at end of services */}
             <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-              <Link to="/lets-talk">
-                <Button className="bg-foreground text-background hover:bg-foreground/90 font-bold" size="lg">
-                  Let's Talk
-                </Button>
-              </Link>
+            <Link to="/request-a-consultation">
+              <Button className="bg-foreground text-background hover:bg-foreground/90 font-bold" size="lg">
+                → Request a consultation
+              </Button>
+            </Link>
             </div>
           </div>
         </section>

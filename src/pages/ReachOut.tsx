@@ -25,7 +25,7 @@ const formSchema = z.object({
   name: z.string().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
   email: z.string().email("Invalid email address").max(255, "Email must be less than 255 characters"),
   phone: z.string().max(20, "Phone number must be less than 20 characters").optional(),
-  description: z.string().max(600, "Description must be less than 600 characters").optional(),
+  description: z.string().min(1, "Description is required").max(600, "Description must be less than 600 characters"),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -106,8 +106,14 @@ const ReachOut = () => {
         
         <div className="space-y-12 animate-fade-in">
           <div className="space-y-6">
+            <h1 className="text-2xl md:text-3xl font-bold">
+              The most powerful projects start with a conversation.
+            </h1>
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              The most powerful projects begin with a conversation. Share a brief overview of your advertising challenge below, and I'll get in touch for a free consultation to see if my expertise is the right fit to drive your growth. I typically respond within 24 hours.
+              Share a brief overview of your advertising challenge below, and I'll get in touch for a free consultation to see how 27x can accelerate your growth.
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground font-bold">
+              I typically respond within 24 hours.
             </p>
           </div>
 
@@ -174,7 +180,7 @@ const ReachOut = () => {
                 name="description"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-sm font-bold">Description</FormLabel>
+                    <FormLabel className="text-sm font-bold">Description *</FormLabel>
                     <FormControl>
                       <Textarea 
                         placeholder="Tell me about your challenge..." 
@@ -198,7 +204,7 @@ const ReachOut = () => {
                 disabled={isSubmitting}
                 className="w-full md:w-auto bg-foreground text-background hover:bg-foreground/90 transition-colors font-bold"
               >
-                {isSubmitting ? "Sending..." : "Send Message"}
+                {isSubmitting ? "Sending..." : "→ Request a consultation"}
               </Button>
             </form>
           </Form>
