@@ -23,28 +23,64 @@ const Index = () => {
       logo: amazonLogo,
       logoAlt: "Amazon DSP",
       title: "Amazon DSP",
-      description: "I help brands and agencies connect with high-value, high-intent audiences, both on and off Amazon. Amazon's DSP provides unmatched access to 230 million unique monthly shoppers across the US and 75 million in the EU. My expertise lies in building tailored DSP campaigns that leverage this immense scale and purchase data to drive verifiable business outcomes."
+      collapsedDescription: "Reach high-intent audiences on and beyond Amazon.\nDrive measurable growth through Amazon's DSP — the only platform connecting verified shopping data with premium open-web inventory.",
+      expandedContent: `Amazon DSP gives you access to high-value audiences not only across Amazon.com and Fire devices but also through leading publishers and partners like Twitch, IMDb, and Spotify.
+
+I help advertisers and agencies:
+• Reach real Amazon shoppers with precision targeting
+• Extend campaigns across the open web using Amazon's unique data
+• Balance prospecting and retargeting for full-funnel performance
+• Continuously optimise pacing and delivery for consistent ROI
+
+→ Your campaigns reach the right audience — wherever they are.`
     },
     {
       logo: amcLogo,
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
-      description: "Want to know the true impact of your ad spend? I use Amazon Marketing Cloud to help you gain a full-funnel view of your campaigns, connecting your data with Amazon's to reveal powerful insights. This allows us to optimize your strategy for maximum effectiveness, ensuring every investment works harder."
+      collapsedDescription: "See the full picture of your advertising performance.\nAMC connects your data with Amazon's, unlocking insights that reveal what truly drives conversions.",
+      expandedContent: `I use Amazon Marketing Cloud (AMC) to provide custom analytics beyond standard DSP reporting — helping you see how customers actually move from awareness to purchase.
+
+Benefits include:
+• Full-funnel attribution across channels and campaigns
+• Transparent measurement of brand vs. performance impact
+• Identification of untapped audience segments
+• Informed budget reallocation to maximise ROAS
+
+→ Turn raw data into clarity — and clarity into smarter media decisions.`
     }
   ];
 
   const complementaryServices = [
     {
       logo: metaLogo,
-      logoAlt: "Instagram and Facebook",
-      title: "Instagram and Facebook",
-      description: "I leverage the unparalleled scale and surgical precision targeting of Meta's platforms (Facebook & Instagram) to secure the ideal audience for your brand. The Meta family of apps now reaches over 452 and 545 million monthly active users across the US and EU accordingly, providing massive, reliable scale. I build campaigns that directly match your core business objectives, ensuring every advertising resource is spent to deliver the measurable results you need for awareness, intent, or purchase."
+      logoAlt: "Meta (Instagram & Facebook)",
+      title: "Meta (Instagram & Facebook)",
+      collapsedDescription: "Turn social reach into measurable business growth.\nI design Meta campaigns that connect with your ideal customers — driving awareness, intent, or direct conversion.",
+      expandedContent: `Meta's platforms (Facebook and Instagram) combine scale and precision — reaching over 450M users across Europe and North America.
+
+I help clients:
+• Build lookalike audiences informed by Amazon's shopper insights
+• Design creative frameworks that boost engagement and recall
+• Optimise spend between awareness and conversion campaigns
+• Translate social data into actionable insights for other channels
+
+→ Integrated strategy that connects social visibility with real sales.`
     },
     {
       logo: tiktokLogo,
       logoAlt: "TikTok",
       title: "TikTok",
-      description: "TikTok is key for future-proofing your brand. With 170 million monthly active US users and 169 million EU users, its explosive growth is now rapidly attracting older, high-value audiences alongside its core youth market. I create tailored TikTok strategies that generate high-impact exposure and deep consumer engagement, designed to meet your specific goals—whether that is brand awareness, driving consideration, or maximizing direct conversions."
+      collapsedDescription: "Capture attention where it matters most.\nTikTok delivers high-impact exposure and deep engagement across all demographics — not just Gen Z.",
+      expandedContent: `With 170M+ monthly US users and fast growth among older audiences, TikTok is now a mainstream performance channel.
+
+I help brands:
+• Build creative-led campaigns optimised for TikTok's algorithm
+• Combine short-form storytelling with conversion goals
+• Integrate TikTok learnings into broader media strategies
+• Reach emerging audiences before your competitors do
+
+→ From awareness to action — TikTok done with measurable purpose.`
     }
   ];
 
@@ -57,12 +93,15 @@ const Index = () => {
         <section className="container max-w-6xl pt-40 sm:pt-44 md:pt-44 pb-16 md:pb-24 px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-6 animate-fade-in">
-              <div className="space-y-3">
+              <div className="space-y-4">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                  Hello, I'm Valentin Iliev,
+                  Hi, I'm Valentin Iliev
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground">
-                  Founder of 27x — a Media Buyer & Consultant who scales brands across Europe and North America.
+                <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                  Founder of 27x — a Media Buyer & Consultant who helps brands turn ad spend into measurable growth across Amazon DSP, Meta, and TikTok.
+                </p>
+                <p className="text-base md:text-lg text-muted-foreground">
+                  Data-driven strategy. Transparent results. Seamless cross-channel execution.
                 </p>
               </div>
             </div>
