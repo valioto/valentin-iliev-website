@@ -18,23 +18,35 @@ const About = () => {
           <div className="space-y-6 animate-fade-in">
             <div className="space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
               <p>
-                I help brands turn advertising investment into consistent, measurable results.
+                I help brands turn advertising investment into consistent, measurable growth.
               </p>
               
               <p>
-                Before launching my consulting practice, I spent 12 years at Amazon, where I was responsible for the advertising strategy and execution for some of the world's most recognisable brands — managing campaigns that collectively delivered over €20 million ($23 million) in media budget.
+                Before launching <strong>27x</strong>, I spent 12 years at <strong>Amazon</strong>, leading advertising strategy and execution for some of the world's most recognised brands — managing more than €20 million ($23 million) in total media investment.
               </p>
               
               <p>
-                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While managing Amazon's Automotive category first in the UK and later in Germany, and also serving as the Global Account Manager for Volkswagen Group, I mastered the design of data-driven strategies that deliver both scale and precision.
+                My experience spans automotive, finance, electronics, software, and travel, but my core expertise lies in understanding what drives performance at scale.
               </p>
               
               <p>
-                At Amazon, I introduced a new generation of Automotive audience targeting, built from a database of millions of vehicle owners. This innovation improved campaign accuracy, boosted performance, and became a blueprint for how automotive and other advertisers across Europe reach their ideal customers. I also led the launch of Hyundai's Brand Space, Amazon's first automotive showroom in Europe — an immersive digital experience that transformed how car brands tell their stories online.
+                While managing <strong>Amazon</strong>'s Automotive category first in the UK and later in Germany, and also serving as Global Account Manager for <strong>Volkswagen Group</strong>, I mastered the design of data-driven strategies that deliver both scale and precision.
               </p>
               
               <p>
-                Today, I bring that same strategic and performance-driven mindset to every brand I work with — helping clients cut through noise, optimise their spend, and achieve advertising that truly moves the needle.
+                As part of that work, I introduced a new generation of automotive audience targeting built from millions of verified vehicle owners — improving accuracy, boosting ROI, and setting a blueprint adopted across Europe.
+              </p>
+              
+              <p>
+                I also led the launch of <strong>Hyundai's Brand Space</strong>, <strong>Amazon</strong>'s first automotive showroom in Europe — transforming how car brands connect storytelling with measurable outcomes.
+              </p>
+              
+              <p>
+                Today, through <strong>27x</strong>, I apply that same strategic and performance-driven mindset to help advertisers cut through noise, optimise budgets, and turn data into results that truly move the needle.
+              </p>
+              
+              <p className="italic">
+                If you're ready to refine your media strategy or explore how <strong>Amazon DSP</strong> can accelerate your growth, <a href="/request-a-consultation" className="text-foreground underline hover:text-primary transition-colors">request a consultation</a>.
               </p>
             </div>
           </div>
