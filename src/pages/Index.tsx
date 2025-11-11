@@ -100,9 +100,6 @@ I help brands:
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
                   Founder of 27x — a Media Buyer & Consultant who helps brands turn ad spend into measurable growth across Amazon DSP, Meta, and TikTok.
                 </p>
-                <p className="text-base md:text-lg text-muted-foreground">
-                  Data-driven strategy. Transparent results. Seamless cross-channel execution.
-                </p>
               </div>
             </div>
             
