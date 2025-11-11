@@ -198,9 +198,12 @@ I help brands:
                 I'm a Media Buyer and Consultant who knows the ins and outs of scaling brands through performance-driven advertising.
               </p>
               
-              <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                Over 12 years at Amazon, I helped global brands and agencies turn strategy into measurable growth — managing campaigns with a total budget of more than €20 million ($23 million). My work focused on maximizing every advertising euro through data-driven media strategy and smart channel allocation.
-              </p>
+            <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+              Over 12 years at Amazon, I helped global brands and agencies turn strategy into measurable growth — managing campaigns worth more than €20 million ($23 million). My work focused on maximizing every advertising euro through data-driven media strategy and smart channel allocation.
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+              Today, I bring that same performance mindset to every client partnership.
+            </p>
             </div>
           </div>
           </div>
