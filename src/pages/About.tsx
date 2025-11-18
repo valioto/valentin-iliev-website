@@ -22,11 +22,11 @@ const About = () => {
               </p>
               
               <p>
-                Before launching my consulting practice, I spent 12 years at Amazon, where I was responsible for the advertising strategy and execution for some of the world's most recognisable brands — managing campaigns that collectively delivered over €20 million ($23 million) in media budget.
+                Before launching 27x, I spent 12 years at Amazon, where I led advertising strategy and execution for some of the world's most recognisable brands — managing more than €20 million ($23 million) in media investment.
               </p>
               
               <p>
-                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true expertise lies in understanding what drives performance. While managing Amazon's Automotive category first in the UK and later in Germany, and also serving as the Global Account Manager for Volkswagen Group, I mastered the design of data-driven strategies that deliver both scale and precision.
+                I've worked across a range of industries — from automotive and finance to electronics, software, and travel — but my true passion lies in turning data into strategies that deliver real performance. While managing Amazon's Automotive category first in the UK and later in Germany, and also serving as the Global Account Manager for Volkswagen Group, I mastered the design of performance frameworks that deliver both scale and precision.
               </p>
               
               <p>
