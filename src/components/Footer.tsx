@@ -5,18 +5,19 @@ const Footer = () => {
     <footer className="py-8 border-t">
       <div className="container max-w-6xl px-6">
         <div className="flex flex-col items-center gap-4">
-          <div className="flex flex-row items-center gap-6">
-            <Link 
-              to="/privacy-policy" 
-              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Privacy Policy
-            </Link>
+          <div className="flex flex-row items-center gap-3">
             <Link 
               to="/request-a-consultation" 
               className="text-xs text-muted-foreground hover:text-foreground transition-colors"
             >
               Contact
+            </Link>
+            <span className="text-xs text-muted-foreground">•</span>
+            <Link 
+              to="/privacy-policy" 
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Privacy Policy
             </Link>
           </div>
           <a 
