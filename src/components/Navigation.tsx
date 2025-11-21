@@ -30,14 +30,14 @@ const Navigation = () => {
   return (
     <>
       {/* Logo */}
-      <div className="fixed top-0 left-0 z-50 p-6 md:p-8">
+      <div className="absolute top-0 left-0 z-50 p-6 md:p-8">
         <Link to="/" className="block p-2 rounded-sm">
           <img src={logo} alt="Valentin Iliev Logo" className="h-8 w-auto" />
         </Link>
       </div>
       
       {/* Navigation */}
-      <nav className="fixed top-0 right-0 z-50 p-6 md:p-8">
+      <nav className="absolute top-0 right-0 z-50 p-6 md:p-8">
         <TooltipProvider delayDuration={200}>
           <ul className="flex flex-col gap-2">
             {navItems.map((item) => (
