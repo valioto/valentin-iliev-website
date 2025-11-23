@@ -12,8 +12,11 @@ import tiktokLogo from "@/assets/tiktok-logo.png";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import FloatingCTA from "@/components/FloatingCTA";
+import { useScrollFade } from "@/hooks/use-scroll-fade";
 
 const Index = () => {
+  const { heroOpacity, servicesOpacity } = useScrollFade();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -85,39 +88,51 @@ I help brands:
   ];
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="min-h-screen bg-background flex flex-col relative">
       <Navigation />
       
       <main>
-        {/* Hero Section */}
-        <section className="container max-w-6xl pt-40 sm:pt-44 md:pt-44 pb-16 md:pb-24 px-6">
-          <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="space-y-6 animate-fade-in">
-              <div className="space-y-4">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                  Hi, I'm Valentin Iliev
-                </h1>
-                <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                  Founder of 27x — a Media Buyer & Consultant who helps brands turn ad spend into measurable growth across Amazon DSP, Meta, and TikTok.
-                </p>
+        {/* Hero Section - Fixed position with fade out */}
+        <section 
+          className="fixed top-0 left-0 w-full h-screen z-10 bg-background flex items-center transition-opacity duration-300"
+          style={{ 
+            opacity: heroOpacity,
+            pointerEvents: heroOpacity === 0 ? 'none' : 'auto'
+          }}
+        >
+          <div className="container max-w-6xl px-6 w-full">
+            <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+              <div className="space-y-6 animate-fade-in">
+                <div className="space-y-4">
+                  <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                    Hi, I'm Valentin Iliev
+                  </h1>
+                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                    Founder of 27x — a Media Buyer & Consultant who helps brands turn ad spend into measurable growth across Amazon DSP, Meta, and TikTok.
+                  </p>
+                </div>
               </div>
-            </div>
-            
-            <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <img 
-                src={heroPortrait} 
-                alt="Valentin Iliev - Media Buyer and Consultant" 
-                className="w-full h-auto"
-                width="800"
-                height="1067"
-                decoding="async"
-              />
+              
+              <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
+                <img 
+                  src={heroPortrait} 
+                  alt="Valentin Iliev - Media Buyer and Consultant" 
+                  className="w-full h-auto"
+                  width="800"
+                  height="1067"
+                  decoding="async"
+                />
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Services Section */}
-        <section className="py-16 md:py-24 bg-background">
+        {/* Services Section - Positioned to overlap with fade in */}
+        <section 
+          className="relative z-20 min-h-screen pt-[100vh] transition-opacity duration-300"
+          style={{ opacity: servicesOpacity }}
+        >
+          <div className="py-16 md:py-24 bg-background">
           <div className="container max-w-6xl px-6">
             <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">
               Get started
@@ -172,6 +187,7 @@ I help brands:
               </Button>
             </Link>
             </div>
+          </div>
           </div>
         </section>
 
