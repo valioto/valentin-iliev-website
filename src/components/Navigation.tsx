@@ -5,7 +5,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/27x-logo.png";
 import { trackCTAClick } from "@/lib/analytics";
 
 const navItems = [
@@ -32,7 +32,7 @@ const Navigation = () => {
       {/* Logo */}
       <div className="absolute top-0 left-0 z-50 p-6 md:p-8">
         <Link to="/" className="block p-2 rounded-sm">
-          <img src={logo} alt="Valentin Iliev Logo" className="h-8 w-auto" />
+          <img src={logo} alt="27x Logo" className="h-8 w-auto" />
         </Link>
       </div>
       
