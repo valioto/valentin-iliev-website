@@ -24,7 +24,7 @@ import capitaloneLogo from "@/assets/capitalone-logo.png";
 import royalmailLogo from "@/assets/royalmail-logo.png";
 import asusLogo from "@/assets/asus-logo.png";
 import olympusLogo from "@/assets/olympus-logo.png";
-import kasperskyLogo from "@/assets/kaspersky-logo.png";
+import iconFilmLogo from "@/assets/icon-film-logo.png";
 import justeatLogo from "@/assets/justeat-logo.png";
 import telegraphLogo from "@/assets/telegraph-logo.png";
 import americanairlinesLogo from "@/assets/americanairlines-logo.png";
@@ -56,7 +56,7 @@ const brands = [
   { name: "Royal Mail", logo: royalmailLogo },
   { name: "Asus", logo: asusLogo },
   { name: "Olympus", logo: olympusLogo },
-  { name: "Kaspersky", logo: kasperskyLogo },
+  { name: "Icon Film Distribution", logo: iconFilmLogo },
   { name: "Just Eat", logo: justeatLogo },
   { name: "The Telegraph", logo: telegraphLogo },
   { name: "American Airlines", logo: americanairlinesLogo },
