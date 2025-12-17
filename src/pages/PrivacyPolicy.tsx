@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
               </p>
               <p>
                 This website may also use basic analytics tools (such as Google Analytics or similar) to understand site performance and visitor behavior.<br />
-                These tools collect non-identifiable information such as page views, time on site, and browser type.
+                These tools collect non-identifiable information such as page views, time on site, and browser behaviour.
               </p>
             </div>
             <div>
@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="font-bold text-foreground mb-2">4. Data Storage & Security</h2>
               <p className="mb-2">
-                I store personal information securely and only for as long as necessary to fulfill the purpose for which it was collected.<br />
+                I store personal information securely and only for as long as necessary to fulfil the purpose for which it was collected.<br />
                 If no ongoing business relationship is established, your data will typically be deleted within 12 months of your last interaction.<br />
                 Reasonable technical and organisational measures are in place to prevent unauthorised access, loss, or misuse.
               </p>
