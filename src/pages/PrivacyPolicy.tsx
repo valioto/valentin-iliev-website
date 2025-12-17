@@ -55,7 +55,7 @@ const PrivacyPolicy = () => {
               <p className="mb-2">
                 I store personal information securely and only for as long as necessary to fulfill the purpose for which it was collected.<br />
                 If no ongoing business relationship is established, your data will typically be deleted within 12 months of your last interaction.<br />
-                Reasonable technical and organizational measures are in place to prevent unauthorized access, loss, or misuse.
+                Reasonable technical and organisational measures are in place to prevent unauthorised access, loss, or misuse.
               </p>
             </div>
             <div>
