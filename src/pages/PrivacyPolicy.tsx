@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
                 I only collect personal information that you voluntarily submit through the contact form or email correspondence.
               </p>
               <p>
-                This website may also use basic analytics tools (such as Google Analytics or similar) to understand site performance and visitor behavior.<br />
+                This website may also use basic analytics tools (such as Google Analytics or similar) to understand site performance and visitor behaviour.<br />
                 These tools collect non-identifiable information such as page views, time on site, and browser behaviour.
               </p>
             </div>
