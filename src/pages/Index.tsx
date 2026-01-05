@@ -101,21 +101,15 @@ My execution covers:
 
 Strategic Focus:
 
-• Performance Creative: Lo-fi, authentic assets that blend natively with the feed while driving strong CTR.
-
 • TikTok Search (SEO): Optimising content to capture the massive volume of users seeking product recommendations.
 
 • Spark Ads: Leveraging high-performing organic content to reduce CPA and boost credibility.
 
 My execution covers:
 
-• Creative briefing and creator/UGC guidelines.
-
 • Full-funnel campaign structure (Video Views to Conversions).
 
 • Signal resilience via pixel and CAPI integration.
-
-• Rapid testing of hooks and formats.
 
 → From viral moments to sustainable revenue streams.`
     }
