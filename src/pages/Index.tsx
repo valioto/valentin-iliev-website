@@ -4,7 +4,7 @@ import ServiceCard from "@/components/ServiceCard";
 import BrandLogos from "@/components/BrandLogos";
 import Footer from "@/components/Footer";
 import heroPortrait from "@/assets/hero-portrait-new.jpg";
-import aboutMeInfo from "@/assets/about-me-info.jpg";
+import aboutMeInfo from "@/assets/main-section-photo.jpg";
 import amazonLogo from "@/assets/amazon-logo.png";
 import amcLogo from "@/assets/amc-logo.png";
 import metaLogo from "@/assets/meta-logo.png";
