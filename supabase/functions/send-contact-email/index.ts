@@ -166,14 +166,14 @@ const handler = async (req: Request): Promise<Response> => {
 
     if (!res.ok) {
       const errorData = await res.json();
-      console.error("Resend API error:", errorData);
-      throw new Error(`Failed to send email: ${errorData.message || res.statusText}`);
+      console.error("Resend API error:", errorData); // Detailed logging server-side only
+      throw new Error('EMAIL_SEND_FAILED'); // Generic error code
     }
 
     const data = await res.json();
     console.log("Email sent successfully:", data);
 
-    return new Response(JSON.stringify(data), {
+    return new Response(JSON.stringify({ success: true }), {
       status: 200,
       headers: {
         "Content-Type": "application/json",
@@ -181,9 +181,11 @@ const handler = async (req: Request): Promise<Response> => {
       },
     });
   } catch (error: any) {
-    console.error("Error in send-contact-email function:", error);
+    console.error("Error in send-contact-email function:", error); // Detailed logging server-side only
+    
+    // Return generic error to client - don't expose internal details
     return new Response(
-      JSON.stringify({ error: error.message }),
+      JSON.stringify({ error: "Failed to send message. Please try again later." }),
       {
         status: 500,
         headers: { "Content-Type": "application/json", ...corsHeaders },
