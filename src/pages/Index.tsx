@@ -23,14 +23,19 @@ const Index = () => {
       logo: amazonLogo,
       logoAlt: "Amazon DSP",
       title: "Amazon DSP",
-      collapsedDescription: "Reach high-intent audiences on and beyond Amazon.\nDrive measurable growth through Amazon's DSP — the only platform connecting verified shopping data with premium open-web inventory.",
-      expandedContent: `Amazon DSP gives you access to high-value audiences not only across Amazon.com and Fire devices but also through leading publishers and partners like Twitch, IMDb, and Spotify.
+      collapsedDescription: "Leverage Amazon's verified shopper data to programmatically buy across the entire media mix. Access Premium Display on the open web, exclusive inventory on Streaming TV (Prime Video, Twitch), and Audio (Spotify, Amazon Music).",
+      expandedContent: `Unlock the full power of Amazon's first-party data beyond the search results. I design programmatic strategies that pair high-intent audiences with high-impact inventory sources.
 
-I help advertisers and agencies:
-• Reach real Amazon shoppers with precision targeting
-• Extend campaigns across the open web using Amazon's unique data
-• Balance prospecting and retargeting for full-funnel performance
-• Continuously optimise pacing and delivery for consistent ROI
+**Access Premium Supply:**
+• **Display & Video:** Brand-safe placements across Amazon O&O (IMDb, Fire Tablet) and top global publishers (APS).
+• **Streaming TV (STV):** Exclusive access to Prime Video, Twitch, Freevee, and top-tier network apps.
+• **Audio:** Reach listeners on Amazon Music, Spotify, and leading podcasts.
+
+**My execution covers:**
+• Full-funnel audience strategy (In-market, Lifestyle, Remarketing, Automotive and more).
+• Precision targeting to reduce wastage and improve your target KPI.
+• Cross-device frequency management.
+• Continuous optimisation.
 
 → Your campaigns reach the right audience — wherever they are.`
     },
