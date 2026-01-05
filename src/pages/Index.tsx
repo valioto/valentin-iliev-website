@@ -43,14 +43,24 @@ My execution covers:
       logo: amcLogo,
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
-      collapsedDescription: "See the full picture of your advertising performance.\nAMC connects your data with Amazon's, unlocking insights that reveal what truly drives conversions.",
-      expandedContent: `I use Amazon Marketing Cloud (AMC) to provide custom analytics beyond standard DSP reporting — helping you see how customers actually move from awareness to purchase.
+      collapsedDescription: "Go beyond standard reporting. I use SQL-based queries in AMC to connect your first-party data with Amazon's signals, revealing the true path to purchase and attribution across channels.",
+      expandedContent: `Standard attribution has blind spots. I use Amazon Marketing Cloud to analyse the full customer journey, measuring the impact of every ad impression—not just the last click.
 
-Benefits include:
-• Full-funnel attribution across channels and campaigns
-• Transparent measurement of brand vs. performance impact
-• Identification of untapped audience segments
-• Informed budget reallocation to maximise ROAS
+Unlock Deep Insights:
+
+• Multi-Touch Attribution: Accurately credit the impact of upper-funnel streaming and display ads on final conversions.
+
+• Audience Intelligence: Granular analysis of demographics, shopping behaviours, and overlap between your organic and paid customers.
+
+• Path to Purchase: Visualise the exact sequence of touchpoints that leads to a sale.
+
+My execution covers:
+
+• Custom query building to answer specific business questions.
+
+• New-to-Brand analysis to prove incremental growth.
+
+• Media mix modelling to optimise budget allocation between DSP and Sponsored Ads.
 
 → Turn raw data into clarity — and clarity into smarter media decisions.`
     }
