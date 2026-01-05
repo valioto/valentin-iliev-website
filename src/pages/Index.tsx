@@ -69,14 +69,26 @@ My execution covers:
       logo: metaLogo,
       logoAlt: "Meta (Instagram & Facebook)",
       title: "Meta (Instagram & Facebook)",
-      collapsedDescription: "Turn social reach into measurable business growth.\nI design Meta campaigns that connect with your ideal customers — driving awareness, intent, or direct conversion.",
-      expandedContent: `Meta's platforms (Facebook and Instagram) combine scale and precision — reaching over 450M users across Europe and North America.
+      collapsedDescription: "Scale your brand on Instagram and Facebook with precision. I combine performance creative with advanced audience signals—including Amazon shopper insights—to drive profitable growth.",
+      expandedContent: `Stop relying on basic boosting. I engineer Meta accounts for performance, using data-led structures that feed the algorithm high-quality conversion signals.
 
-I help clients:
-• Build lookalike audiences informed by Amazon's shopper insights
-• Design creative frameworks that boost engagement and recall
-• Optimise spend between awareness and conversion campaigns
-• Translate social data into actionable insights for other channels
+Strategic Focus:
+
+• Audience Architecture: Injecting Amazon shopper DNA into Meta targeting for smarter prospecting and retargeting.
+
+• Performance Creative: Designing iterative ad frameworks (Reels, Static, Carousel) that stop the scroll and drive action.
+
+• Signal Resilience: Mitigating data loss through robust setup and first-party data integration.
+
+My execution covers:
+
+• Full-funnel campaign structure (Awareness to Conversion).
+
+• Scaling via Advantage+ shopping campaigns.
+
+• Rigorous A/B testing of creative concepts to combat fatigue.
+
+• Cross-channel attribution analysis.
 
 → Integrated strategy that connects social visibility with real sales.`
     },
