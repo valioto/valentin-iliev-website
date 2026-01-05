@@ -96,16 +96,28 @@ My execution covers:
       logo: tiktokLogo,
       logoAlt: "TikTok",
       title: "TikTok",
-      collapsedDescription: "Capture attention where it matters most.\nTikTok delivers high-impact exposure and deep engagement across all demographics — not just Gen Z.",
-      expandedContent: `With 170M+ monthly US users and fast growth among older audiences, TikTok is now a mainstream performance channel.
+      collapsedDescription: "Turn viral attention into measurable revenue. I position brands on TikTok to capture high-intent traffic through performance video and the rapidly growing power of TikTok Search.",
+      expandedContent: `TikTok has evolved into a primary search and discovery engine. I help brands navigate this shift, balancing brand-building entertainment with hard-hitting direct response.
 
-I help brands:
-• Build creative-led campaigns optimised for TikTok's algorithm
-• Combine short-form storytelling with conversion goals
-• Integrate TikTok learnings into broader media strategies
-• Reach emerging audiences before your competitors do
+Strategic Focus:
 
-→ From awareness to action — TikTok done with measurable purpose.`
+• Performance Creative: Lo-fi, authentic assets that blend natively with the feed while driving strong CTR.
+
+• TikTok Search (SEO): Optimising content to capture the massive volume of users seeking product recommendations.
+
+• Spark Ads: Leveraging high-performing organic content to reduce CPA and boost credibility.
+
+My execution covers:
+
+• Creative briefing and creator/UGC guidelines.
+
+• Full-funnel campaign structure (Video Views to Conversions).
+
+• Signal resilience via pixel and CAPI integration.
+
+• Rapid testing of hooks and formats.
+
+→ From viral moments to sustainable revenue streams.`
     }
   ];
 
