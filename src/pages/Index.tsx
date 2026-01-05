@@ -60,8 +60,6 @@ My execution covers:
 
 • New-to-Brand analysis to prove incremental growth.
 
-• Media mix modelling to optimise budget allocation between DSP and Sponsored Ads.
-
 → Turn raw data into clarity — and clarity into smarter media decisions.`
     }
   ];
