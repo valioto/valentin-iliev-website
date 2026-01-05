@@ -23,15 +23,15 @@ const Index = () => {
       logo: amazonLogo,
       logoAlt: "Amazon DSP",
       title: "Amazon DSP",
-      collapsedDescription: "Leverage Amazon's verified shopper data to programmatically buy across the entire media mix. Access Premium Display on the open web, exclusive inventory on Streaming TV (Prime Video, Twitch), and Audio (Spotify, Amazon Music).",
+      collapsedDescription: "Leverage Amazon's verified shopper data to programmatically buy across the entire media mix. Access Premium Display on the open web, exclusive inventory on Streaming TV, and Audio.",
       expandedContent: `Unlock the full power of Amazon's first-party data beyond the search results. I design programmatic strategies that pair high-intent audiences with high-impact inventory sources.
 
-**Access Premium Supply:**
-• **Display & Video:** Brand-safe placements across Amazon O&O (IMDb, Fire Tablet) and top global publishers (APS).
-• **Streaming TV (STV):** Exclusive access to Prime Video, Twitch, Freevee, and top-tier network apps.
-• **Audio:** Reach listeners on Amazon Music, Spotify, and leading podcasts.
+Access Premium Supply:
+• Display & Video: Brand-safe placements across Amazon O&O (IMDb, Fire Tablet) and top global publishers (APS).
+• Streaming TV (STV): Exclusive access to Prime Video, Twitch, Freevee, and top-tier network apps.
+• Audio: Reach listeners on Amazon Music, Spotify, and leading podcasts.
 
-**My execution covers:**
+My execution covers:
 • Full-funnel audience strategy (In-market, Lifestyle, Remarketing, Automotive and more).
 • Precision targeting to reduce wastage and improve your target KPI.
 • Cross-device frequency management.
