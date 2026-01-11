@@ -27,7 +27,7 @@ const Footer = () => {
             valentin@27x.co.uk
           </a>
           <p className="text-xs text-center text-muted-foreground">
-            © 2025 27x Ltd. All rights reserved.
+            © 2026 27x Ltd. All rights reserved.
           </p>
         </div>
       </div>
