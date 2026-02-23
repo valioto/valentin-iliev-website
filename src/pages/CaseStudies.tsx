@@ -28,8 +28,8 @@ const caseStudies: CaseStudy[] = [
     industry: "Automotive Industry",
     challenge: "I took over an always-on Fire TV app install campaign for an automotive advertiser. The campaign was already meeting its targets, but the agency was open to further improving efficiency and scale if meaningful opportunities existed.",
     approach: "After reviewing the campaign's performance patterns, I analysed conversion behaviour across different times of day and identified high-performing windows with consistently stronger cost efficiency. Seeing the opportunity, I proactively recommended a day-part targeting strategy that concentrated delivery during the hours with the highest likelihood of driving installs. This optimisation significantly improved CPI and strengthened the overall performance profile of the campaign. The results were compelling enough that the agency requested a flight extension to further capitalise on the uplift. To support the extended period, I also reviewed historic device traffic trends and recommended running the extension during periods with increased user activity to sustain results.",
-    impact: "The campaign was extended by 3 months and achieved a €5.86 CPI — a 61% improvement from the original €14.95. The agency increased quarterly investment by 62.6%.",
-    whyItMatters: "By proactively analysing an already-successful campaign and introducing strategic day-parting, I unlocked substantial performance gains and inspired incremental investment — showing how thoughtful optimisation can elevate always-on activity into a long-term growth driver.",
+    impact: "The campaign was extended by 3 months and achieved a €5.86 CPI - a 61% improvement from the original €14.95. The agency increased quarterly investment by 62.6%.",
+    whyItMatters: "By proactively analysing an already-successful campaign and introducing strategic day-parting, I unlocked substantial performance gains and inspired incremental investment - showing how thoughtful optimisation can elevate always-on activity into a long-term growth driver.",
   },
   {
     id: 2,
@@ -37,8 +37,8 @@ const caseStudies: CaseStudy[] = [
     keyMetric: "3% ABA uplift",
     industry: "Energy Industry",
     challenge: "An energy brand ran an awareness campaign across DSP and Fire Devices with a brand study measuring multiple perception metrics. While results were positive overall, the study revealed underperformance in aided brand awareness (ABA), putting future investment at risk.",
-    approach: "I reviewed the brand study data and identified that limited logo visibility and weak brand cues in the creatives likely caused the shortfall. I collaborated with the creative agency to redesign assets — increasing logo prominence and integrating the brand into the call-to-action — ensuring stronger brand recall without compromising user experience.",
-    impact: "In the next flight, the advertiser more than doubled their investment (from £145K to £340K) and achieved a 3% uplift in ABA — reversing the prior result.",
+    approach: "I reviewed the brand study data and identified that limited logo visibility and weak brand cues in the creatives likely caused the shortfall. I collaborated with the creative agency to redesign assets - increasing logo prominence and integrating the brand into the call-to-action - ensuring stronger brand recall without compromising user experience.",
+    impact: "In the next flight, the advertiser more than doubled their investment (from £145K to £340K) and achieved a 3% uplift in ABA - reversing the prior result.",
     whyItMatters: "By connecting data insights to creative execution, I transformed measurement findings into concrete brand growth and strengthened client confidence in Amazon's ecosystem.",
   },
   {

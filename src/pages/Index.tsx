@@ -37,14 +37,14 @@ My execution covers:
 • Cross-device frequency management.
 • Continuous optimisation.
 
-→ Your campaigns reach the right audience — wherever they are.`
+→ Your campaigns reach the right audience - wherever they are.`
     },
     {
       logo: amcLogo,
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
       collapsedDescription: "Go beyond standard reporting. I use SQL-based queries in AMC to connect your first-party data with Amazon's signals, revealing the true path to purchase and attribution across channels.",
-      expandedContent: `Standard attribution has blind spots. I use Amazon Marketing Cloud to analyse the full customer journey, measuring the impact of every ad impression—not just the last click.
+      expandedContent: `Standard attribution has blind spots. I use Amazon Marketing Cloud to analyse the full customer journey, measuring the impact of every ad impression - not just the last click.
 
 Unlock Deep Insights:
 
@@ -60,7 +60,7 @@ My execution covers:
 
 • New-to-Brand analysis to prove incremental growth.
 
-→ Turn raw data into clarity — and clarity into smarter media decisions.`
+→ Turn raw data into clarity - and clarity into smarter media decisions.`
     }
   ];
 
@@ -69,7 +69,7 @@ My execution covers:
       logo: metaLogo,
       logoAlt: "Meta (Instagram & Facebook)",
       title: "Meta (Instagram & Facebook)",
-      collapsedDescription: "Scale your brand on Instagram and Facebook with precision. I combine performance creative with advanced audience signals—including Amazon shopper insights—to drive profitable growth.",
+      collapsedDescription: "Scale your brand on Instagram and Facebook with precision. I combine performance creative with advanced audience signals - including Amazon shopper insights - to drive profitable growth.",
       expandedContent: `Stop relying on basic boosting. I engineer Meta accounts for performance, using data-led structures that feed the algorithm high-quality conversion signals.
 
 Strategic Focus:
@@ -129,7 +129,7 @@ My execution covers:
                   Hi, I'm Valentin Iliev
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                  Founder of 27x — a Media Buyer & Consultant who helps brands turn ad spend into measurable growth across Amazon DSP, Meta, and TikTok.
+                  Founder of 27x - a Media Buyer & Consultant who helps brands turn ad spend into measurable growth across Amazon DSP, Meta, and TikTok.
                 </p>
               </div>
             </div>
@@ -156,7 +156,7 @@ My execution covers:
             
             {/* Intro Paragraph */}
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto mb-16 animate-fade-in">
-              My core focus and expertise lie in Amazon DSP and Amazon Marketing Cloud (AMC). For clients seeking consistent cross-channel performance, I also support campaigns on Meta and TikTok — integrating insights from Amazon's ecosystem to maximise results.
+              My core focus and expertise lie in Amazon DSP and Amazon Marketing Cloud (AMC). For clients seeking consistent cross-channel performance, I also support campaigns on Meta and TikTok - integrating insights from Amazon's ecosystem to maximise results.
             </p>
 
             {/* Core Amazon Services */}
@@ -230,7 +230,7 @@ My execution covers:
               </p>
               
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Over 12 years at Amazon, I helped global brands and agencies turn strategy into measurable growth — managing campaigns worth more than €20 million ($23 million). My work focused on maximising every advertising euro through data-driven media strategy and smart channel allocation.
+              Over 12 years at Amazon, I helped global brands and agencies turn strategy into measurable growth - managing campaigns worth more than €20 million ($23 million). My work focused on maximising every advertising euro through data-driven media strategy and smart channel allocation.
             </p>
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
               Today, I bring that same performance mindset to every client partnership.
