@@ -37,7 +37,7 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="font-bold text-foreground mb-2">2. Lawful Basis for Processing</h2>
               <p>
-                The lawful basis for processing your personal data is legitimate interest — specifically, to respond to your inquiry, provide information you requested, or discuss potential collaboration or services.
+                The lawful basis for processing your personal data is legitimate interest - specifically, to respond to your inquiry, provide information you requested, or discuss potential collaboration or services.
               </p>
             </div>
             <div>
