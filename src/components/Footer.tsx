@@ -29,6 +29,10 @@ const Footer = () => {
           <p className="text-xs text-center text-muted-foreground">
             © 2026 27x Ltd. All rights reserved.
           </p>
+          <div className="w-16 h-px bg-border" />
+          <p className="text-[11px] text-center text-muted-foreground/70">
+            27X LTD | Company Number: 16835623 | Registered address: 3 Northcote Avenue, Isleworth, TW7 7JH
+          </p>
         </div>
       </div>
     </footer>

@@ -1,33 +1,20 @@
+## Add UK Company Legal Information to Footer
 
+Add the following legal text to the website footer on every page, displayed in small, subtle text beneath the existing footer content, separated by a thin divider:
 
-## Replace All Em Dashes with Regular Dashes
+```
+27X LTD | Company Number: 16835623 | Registered address: 3 Northcote Avenue, Isleworth, TW7 7JH
+```
 
-### Summary
-Replace every em dash (`—`) with a regular dash (`-`) across the entire website. Em dashes were found in 3 files.
+### Changes
 
-### Files to Modify
+**File: `src/components/Footer.tsx`**
+- Add a thin horizontal divider (`w-16 h-px bg-border`) below the copyright text
+- Add the legal text in `text-[11px]` with `text-muted-foreground/70` colour, centered
+- Keep the existing footer layout and styling intact
 
-**1. `src/pages/About.tsx`** (5 em dashes)
-- Line 25: `brands — managing` -> `brands - managing`
-- Line 29: `industries — from` -> `industries - from`
-- Line 33: `Europe — an` -> `Europe - an`
-- Line 37: `with — helping` -> `with - helping`
-
-**2. `src/pages/Index.tsx`** (2 em dashes)
-- Line 40: `audience — wherever` -> `audience - wherever`
-- Line 132: `27x — a Media` -> `27x - a Media`
-
-**3. `src/pages/CaseStudies.tsx`** (11 em dashes)
-- Line 31: `CPI — a 61%` -> `CPI - a 61%`
-- Line 32: `investment — showing` -> `investment - showing`
-- Line 40: `assets — increasing` -> `assets - increasing`
-- Line 41: `ABA — reversing` -> `ABA - reversing`
-- Line 50: `approach: "I produced follow-up...` (contains em dash)
-- Line 59: `approach: "I identified missing data..."` (contains em dash)
-- Line 61: `impact: "The CPI dropped..."` (contains em dash)
-- Line 70: `approach: "I identified an alternative..."` (contains em dash)
-- Line 71: `impact: "The revised campaign..."` (contains em dash)
-- Line 80: `approach: "I analysed device activation..."` (contains em dash)
-
-All em dashes (`—`) will be replaced with a regular hyphen-minus (`-`). No other changes will be made.
-
+### Styling details
+- Font size: ~11px (smaller than existing `text-xs` footer text)
+- Colour: muted-foreground at 70% opacity for subtlety
+- Alignment: centered (matching existing footer layout)
+- Divider: 16px wide, 1px high, using `bg-border` token for consistency with the design system
