@@ -36,6 +36,10 @@ const About = () => {
               <p>
                 Today, I bring that same strategic and performance-driven mindset to every brand I work with - helping clients cut through noise, optimise their spend, and achieve advertising that truly moves the needle.
               </p>
+              
+              <p>
+                Why startups? Early-stage budgets have no room for waste, and every bit of spend has to convert into growth. I work with consumer fintech, travel, app and subscription brands, using Meta and TikTok to prove paid growth works, then adding Amazon to scale once it does.
+              </p>
             </div>
           </div>
           

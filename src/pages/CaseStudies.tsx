@@ -18,38 +18,33 @@ interface CaseStudy {
   approach: string;
   impact: string;
   whyItMatters: string;
+  externalLink?: { label: string; url: string };
 }
 
 const caseStudies: CaseStudy[] = [
   {
+    id: 7,
+    title: "Hyundai Brand Space: Amazon's First Automotive Showroom in Europe",
+    keyMetric: "First of its kind in Europe",
+    industry: "Automotive Industry · Public Case Study",
+    challenge: "Car brands could advertise on Amazon but had no home there. No place to tell a brand story to Amazon's millions of shoppers, or connect that attention to a purchase journey.",
+    approach: "As Senior Solutions Manager in Amazon's EU Brand Innovation Lab, I led the product strategy and production of Europe's first automotive Brand Space, an immersive digital showroom launched with Hyundai in Germany in April 2024. It guided Amazon customers from display ads through brand content to car configurators and local dealership test drives.",
+    impact: "Launched in Germany in April 2024 and later expanded to the UK. It was a first-of-its-kind retail media product, announced publicly by Hyundai Motor Europe. The Brand Space carried a full measurement framework covering brand lift, page engagement and consideration signals like configurator visits and test-drive requests, plus lead generation that captured dealer interest directly inside Amazon. The format became a blueprint for how non-endemic brands build presence inside Amazon.",
+    whyItMatters: "The playbook for reaching Amazon's audiences without selling on Amazon, the same approach I bring to fintech, travel and app brands today.",
+    externalLink: {
+      label: "Read Hyundai's official announcement",
+      url: "https://www.hyundai.news/eu/articles/press-releases/hyundai-launches-its-first-european-brand-space-on-amazon.html",
+    },
+  },
+  {
     id: 1,
     title: "Day-Part Optimisation Drives 61% Cost per Install (CPI) Improvement",
-    keyMetric: "61% CPI Uplift",
+    keyMetric: "61% CPI Reduction",
     industry: "Automotive Industry",
     challenge: "I took over an always-on Fire TV app install campaign for an automotive advertiser. The campaign was already meeting its targets, but the agency was open to further improving efficiency and scale if meaningful opportunities existed.",
     approach: "After reviewing the campaign's performance patterns, I analysed conversion behaviour across different times of day and identified high-performing windows with consistently stronger cost efficiency. Seeing the opportunity, I proactively recommended a day-part targeting strategy that concentrated delivery during the hours with the highest likelihood of driving installs. This optimisation significantly improved CPI and strengthened the overall performance profile of the campaign. The results were compelling enough that the agency requested a flight extension to further capitalise on the uplift. To support the extended period, I also reviewed historic device traffic trends and recommended running the extension during periods with increased user activity to sustain results.",
-    impact: "The campaign was extended by 3 months and achieved a €5.86 CPI - a 61% improvement from the original €14.95. The agency increased quarterly investment by 62.6%.",
+    impact: "CPI fell from €14.95 to €5.86, making installs 61% cheaper. The results earned a three-month flight extension, and the agency scaled investment by 62.6% into a proven winner.",
     whyItMatters: "By proactively analysing an already-successful campaign and introducing strategic day-parting, I unlocked substantial performance gains and inspired incremental investment - showing how thoughtful optimisation can elevate always-on activity into a long-term growth driver.",
-  },
-  {
-    id: 2,
-    title: "Turning Brand Study Insights into Creative Impact",
-    keyMetric: "3% ABA uplift",
-    industry: "Energy Industry",
-    challenge: "An energy brand ran an awareness campaign across DSP and Fire Devices with a brand study measuring multiple perception metrics. While results were positive overall, the study revealed underperformance in aided brand awareness (ABA), putting future investment at risk.",
-    approach: "I reviewed the brand study data and identified that limited logo visibility and weak brand cues in the creatives likely caused the shortfall. I collaborated with the creative agency to redesign assets - increasing logo prominence and integrating the brand into the call-to-action - ensuring stronger brand recall without compromising user experience.",
-    impact: "In the next flight, the advertiser more than doubled their investment (from £145K to £340K) and achieved a 3% uplift in ABA - reversing the prior result.",
-    whyItMatters: "By connecting data insights to creative execution, I transformed measurement findings into concrete brand growth and strengthened client confidence in Amazon's ecosystem.",
-  },
-  {
-    id: 3,
-    title: "Proving Incrementality",
-    keyMetric: "4× ROAS Benchmark",
-    industry: "Consumer Electronics Industry",
-    challenge: "A consumer electronics advertiser questioned the sustainability of high Return on Ad Spend (ROAS) achieved during the Black Friday period and hesitated to increase investment.",
-    approach: "I produced follow-up performance reports outside the Black Friday window, isolating the effect of my optimisations from seasonal noise. By contrasting markets, I demonstrated a 12.86 ROAS in the home market (UK) versus 2.09 in Germany, clearly linking results to targeting optimisation and retargeting strategy quality rather than seasonal demand.",
-    impact: "My analysis convinced the client to double their home market campaign budget (+100%), investing an additional £40K mid-flight and helping colleagues drive performance improvements. The final campaign achieved more than 4× the advertiser's benchmark ROAS.",
-    whyItMatters: "Methodical performance validation builds credibility, overcomes objections, and converts skepticism into budget growth.",
   },
   {
     id: 4,
@@ -58,8 +53,28 @@ const caseStudies: CaseStudy[] = [
     industry: "Food Delivery Industry",
     challenge: "Following a tracking system change, a major food delivery client saw reported Cost per Install (CPI) jump from £2 to £72, threatening immediate cancellation across all campaigns.",
     approach: "I identified missing data granularity in the new attribution setup and escalated directly to the third-party measurement partner, bypassing agency delays. Within two weeks, I secured the necessary data feed updates, restoring missing data and enabling refined optimisations.",
-    impact: "The CPI dropped from £72 to under £2, fully recovering performance and driving a 17% budget increase (+£42.5K) within the quarter. The advertiser continued to invest and remained active after the global program's deprecation.",
-    whyItMatters: "Hands-on problem solving and persistence under pressure can transform a near-cancellation into a performance rebound and upsell opportunity.",
+    impact: "Reported CPI was restored from £72 to under £2 within two weeks. The advertiser kept investing and increased the budget by 17% that quarter to capitalise on the strong performance.",
+    whyItMatters: "Most 'performance collapses' are really measurement problems. I diagnose broken attribution before touching budgets, the same discipline every consumer app needs after iOS 14.",
+  },
+  {
+    id: 3,
+    title: "Proving Incrementality",
+    keyMetric: "4× ROAS Benchmark",
+    industry: "Consumer Electronics Industry",
+    challenge: "A consumer electronics advertiser questioned the sustainability of high Return on Ad Spend (ROAS) achieved during the Black Friday period and hesitated to increase investment.",
+    approach: "I produced follow-up performance reports outside the Black Friday window, isolating the effect of my optimisations from seasonal noise. By contrasting markets, I demonstrated a 12.86 ROAS in the home market (UK) versus 2.09 in Germany, clearly linking results to targeting optimisation and retargeting strategy quality rather than seasonal demand.",
+    impact: "The campaign closed at more than 4× the advertiser's benchmark ROAS (12.86 vs 2.09 in the contrast market). On the strength of the analysis, the client doubled the home-market budget mid-flight.",
+    whyItMatters: "Methodical performance validation builds credibility, overcomes objections, and converts skepticism into budget growth.",
+  },
+  {
+    id: 6,
+    title: "Seasonal Opportunity",
+    keyMetric: "CTRs 58% Above Benchmark",
+    industry: "Automotive Industry",
+    challenge: "A leading automotive group had strong results on Fire TV and Tablet but had not fully capitalised on seasonal surges in post-Christmas device activation and Click-Through Rate (CTR) performance.",
+    approach: "I analysed device activation trends and identified a 375% spike for Fire Tablet and 183% for Fire TV after Christmas. I pitched a device-heavy strategy timed to these periods and followed up through QBRs and reporting cycles until buy-in was secured.",
+    impact: "By timing spend to post-Christmas device-activation surges (+375% Fire Tablet, +183% Fire TV), campaigns hit CTRs of 2.21% and 1.81% against a 1.4% benchmark. The methodology was adopted across Amazon's EU teams as best practice.",
+    whyItMatters: "Strategic timing and data-driven persuasion turned seasonal insight into measurable growth and a replicable upsell playbook for other markets.",
   },
   {
     id: 5,
@@ -69,17 +84,7 @@ const caseStudies: CaseStudy[] = [
     challenge: "A global automotive brand planned an awareness campaign via Amazon's Fire Tablet, leveraging a third-party brand study provider to measure brand lift (BL). Days before launch, the measurement setup failed due to a technical limitation, threatening half of the campaign's budget and risking client trust.",
     approach: "I identified an alternative: upgrading to a different brand study provider requiring higher impressions. To meet the eligibility threshold without additional cost, I negotiated 6M added-value impressions and secured cross-functional approval from product, yield, and leadership teams within 48 hours.",
     impact: "The revised campaign achieved improved results across reach, viewability, and Click-Through Rate (CTR). The client renewed the campaign the next quarter with an additional £29.9K investment (87.9% budget uplift). Amazon updated internal documentation to prevent similar issues for other accounts.",
-    whyItMatters: "Creative problem-solving under time pressure prevented revenue loss, improved campaign outcomes, and set a new internal standard for brand study execution.",
-  },
-  {
-    id: 6,
-    title: "Seasonal Opportunity",
-    keyMetric: "£134K Revenue Added",
-    industry: "Automotive Industry",
-    challenge: "A leading automotive group had strong results on Fire TV and Tablet but had not fully capitalised on seasonal surges in post-Christmas device activation and Click-Through Rate (CTR) performance.",
-    approach: "I analysed device activation trends and identified a 375% spike for Fire Tablet and 183% for Fire TV after Christmas. I pitched a device-heavy strategy timed to these periods and followed up through QBRs and reporting cycles until buy-in was secured.",
-    impact: "Two post-Christmas upsells were signed, adding £134K in incremental revenue. Campaigns outperformed the automotive baseline with CTRs of 2.21% and 1.81% versus a 1.4% benchmark. The methodology was shared across Amazon's EU teams as a best practice.",
-    whyItMatters: "Strategic timing and data-driven persuasion turned seasonal insight into measurable growth and a replicable upsell playbook for other markets.",
+    whyItMatters: "When measurement breaks days before launch, I fix it without burning the budget. This one took 48 hours and cross-functional coordination, with no spend wasted.",
   },
 ];
 
@@ -95,7 +100,7 @@ const CaseStudies = () => {
         <section className="pt-40 sm:pt-44 md:pt-44 pb-16 px-6">
           <div className="container max-w-6xl mx-auto">
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl">
-              Explore successful campaign optimisations and measurable outcomes across automotive, energy, consumer electronics, and food delivery sectors.
+              Results from 12 years at Amazon Ads, managing over €20M for global brands. Client names are under NDA, but the methods are exactly what 27x clients get, including app-install and awareness work for brands that don't sell on Amazon.
             </p>
           </div>
         </section>
@@ -182,6 +187,19 @@ const CaseStudies = () => {
                   {selectedCase.whyItMatters}
                 </p>
               </div>
+
+              {selectedCase.externalLink && (
+                <div>
+                  <a
+                    href={selectedCase.externalLink.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm underline text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    {selectedCase.externalLink.label} →
+                  </a>
+                </div>
+              )}
             </div>
           )}
         </DialogContent>

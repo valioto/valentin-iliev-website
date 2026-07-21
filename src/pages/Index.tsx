@@ -32,10 +32,12 @@ Access Premium Supply:
 • Audio: Reach listeners on Amazon Music, Spotify, and leading podcasts.
 
 My execution covers:
-• Full-funnel audience strategy (In-market, Lifestyle, Remarketing, Automotive and more).
+• Full-funnel audience strategy (In-market, Lifestyle, Remarketing, and more).
 • Precision targeting to reduce wastage and improve your target KPI.
 • Cross-device frequency management.
 • Continuous optimisation.
+
+Works for brands that don't sell on Amazon. Fintech, travel and app companies use these audiences every day, with no agency minimums and campaigns sized to your stage.
 
 → Your campaigns reach the right audience - wherever they are.`
     },
@@ -44,7 +46,7 @@ My execution covers:
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
       collapsedDescription: "Go beyond standard reporting. I use SQL-based queries in AMC to connect your first-party data with Amazon's signals, revealing the true path to purchase and attribution across channels.",
-      expandedContent: `Standard attribution has blind spots. I use Amazon Marketing Cloud to analyse the full customer journey, measuring the impact of every ad impression - not just the last click.
+      expandedContent: `Amazon Marketing Cloud (AMC) goes beyond standard reporting. When a campaign generates enough signal, I build SQL-based queries in AMC to connect your first-party data with Amazon's, revealing the true path to purchase across channels.
 
 Unlock Deep Insights:
 
@@ -129,7 +131,7 @@ My execution covers:
                   Hi, I'm Valentin Iliev
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                  Founder of 27x - a Media Buyer & Consultant who helps brands turn ad spend into measurable growth across Amazon DSP, Meta, and TikTok.
+                  Founder of 27x. I help funded consumer startups turn ad spend into measurable growth, from their first profitable Meta and TikTok campaigns to Amazon DSP scale. Built on 12 years inside Amazon Ads.
                 </p>
               </div>
             </div>
@@ -156,7 +158,7 @@ My execution covers:
             
             {/* Intro Paragraph */}
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto mb-16 animate-fade-in">
-              My core focus and expertise lie in Amazon DSP and Amazon Marketing Cloud (AMC). For clients seeking consistent cross-channel performance, I also support campaigns on Meta and TikTok - integrating insights from Amazon's ecosystem to maximise results.
+              My deepest experience is with Amazon DSP, the most technically demanding of the major ad platforms. The same targeting and optimisation methods carry straight over to Meta and TikTok, so you get the same rigour whichever channel suits your stage. Amazon's audiences also work if you sell nothing on Amazon, which is why fintech, travel and app brands use them. Most clients start with Meta and TikTok to prove paid growth, then add Amazon to scale.
             </p>
 
             {/* Core Amazon Services */}
@@ -233,7 +235,7 @@ My execution covers:
               Over 12 years at Amazon, I helped global brands and agencies turn strategy into measurable growth - managing campaigns worth more than €20 million ($23 million). My work focused on maximising every advertising euro through data-driven media strategy and smart channel allocation.
             </p>
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Today, I bring that same performance mindset to every client partnership.
+              Today, I bring that same performance mindset to funded consumer startups, from seed to Series B.
             </p>
             </div>
           </div>
