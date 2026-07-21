@@ -45,7 +45,7 @@ Works for brands that don't sell on Amazon. Fintech, travel and app companies us
       logo: amcLogo,
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
-      collapsedDescription: "Go beyond standard reporting. I use SQL-based queries in AMC to connect your first-party data with Amazon's signals, revealing the true path to purchase and attribution across channels.",
+      collapsedDescription: "Go beyond standard reporting. I use Amazon Marketing Cloud (AMC) to connect your first-party data with Amazon's signals, revealing the path to purchase across channels.",
       expandedContent: `Amazon Marketing Cloud (AMC) goes beyond standard reporting. When a campaign generates enough signal, I build SQL-based queries in AMC to connect your first-party data with Amazon's, revealing the true path to purchase across channels.
 
 Unlock Deep Insights:
