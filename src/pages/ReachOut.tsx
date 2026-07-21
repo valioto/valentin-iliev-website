@@ -206,6 +206,9 @@ const ReachOut = () => {
               >
                 {isSubmitting ? "Sending..." : "→ Request a consultation"}
               </Button>
+              <p className="text-xs text-muted-foreground mt-2">
+                Currently taking on two founding clients at reduced rates in exchange for a public case study.
+              </p>
             </form>
           </Form>
 

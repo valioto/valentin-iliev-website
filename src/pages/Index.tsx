@@ -32,10 +32,12 @@ Access Premium Supply:
 • Audio: Reach listeners on Amazon Music, Spotify, and leading podcasts.
 
 My execution covers:
-• Full-funnel audience strategy (In-market, Lifestyle, Remarketing, Automotive and more).
+• Full-funnel audience strategy (In-market, Lifestyle, Remarketing, and more).
 • Precision targeting to reduce wastage and improve your target KPI.
 • Cross-device frequency management.
 • Continuous optimisation.
+
+Works for brands that don't sell on Amazon. Fintech, travel and app companies use these audiences every day, with no agency minimums and campaigns sized to your stage.
 
 → Your campaigns reach the right audience - wherever they are.`
     },
@@ -44,7 +46,7 @@ My execution covers:
       logoAlt: "Amazon Marketing Cloud",
       title: "Amazon Marketing Cloud",
       collapsedDescription: "Go beyond standard reporting. I use SQL-based queries in AMC to connect your first-party data with Amazon's signals, revealing the true path to purchase and attribution across channels.",
-      expandedContent: `Standard attribution has blind spots. I use Amazon Marketing Cloud to analyse the full customer journey, measuring the impact of every ad impression - not just the last click.
+      expandedContent: `Amazon Marketing Cloud (AMC) goes beyond standard reporting. When a campaign generates enough signal, I build SQL-based queries in AMC to connect your first-party data with Amazon's, revealing the true path to purchase across channels.
 
 Unlock Deep Insights:
 
